@@ -1,0 +1,23 @@
+import: unable to open X server `' @ error/import.c/ImportImageCommand/344.
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: syntax error near unexpected token `sys.argv'
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: `if len(sys.argv) > 1 and sys.argv[1].startswith('shell.') and sys.path and sys.path[0] == '':'
+TORS::compute_val: unable to compute torsion value
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+

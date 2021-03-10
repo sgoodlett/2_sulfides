@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 32, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 683, in gradient
+    dertype = _find_derivative_type('gradient', lowername, user_dertype)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 110, in _find_derivative_type
+    % (method_name, str(dertype), alternatives))
+
+psi4.driver.p4util.exceptions.ValidationError: Derivative method 'name' wb97xd and derivative level 'dertype' (auto) are not available. Did you mean? b97-d wb97 wb97x wb97x-d3 wb97x-d wb97xv wb97x-v wb97mv
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    A1 = 120.0
+    """)
+    core.IO.set_default_namespace("")
+    core.set_global_option("REFERENCE", "uks")
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+--> optimize('wb97xd')
+

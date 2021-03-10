@@ -1,0 +1,30 @@
+memory 10 GB
+
+molecule  {
+0 1
+S
+S 1 r1
+S 1 r2 2 a1
+K 2 r3 1 a2 3 d1 
+K 3 r4 1 a3 2 d2
+r1 = 2.128
+r2 = 2.128
+r3 = 2.818
+r4 = 2.818
+a1 = 92.1
+a2 = 92.0
+a3 = 92.0
+d1 = -89.6
+d2 = -89.6
+}
+
+set {
+basis aug-cc-pv(t+d)z
+g_convergence gau_verytight
+dft_spherical_points 590
+dft_radial_points 99
+}
+
+optimize('wb97m-v')
+frequencies('wb97m-v')
+

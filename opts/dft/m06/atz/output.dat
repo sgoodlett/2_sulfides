@@ -1,0 +1,403 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.4a2.dev191 
+
+                         Git: Rev {master} 0ab5346 
+
+
+    R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Simmonett,
+    A. E. DePrince III, E. G. Hohenstein, U. Bozkaya, A. Yu. Sokolov,
+    R. Di Remigio, R. M. Richard, J. F. Gonthier, A. M. James,
+    H. R. McAlexander, A. Kumar, M. Saitow, X. Wang, B. P. Pritchard,
+    P. Verma, H. F. Schaefer III, K. Patkowski, R. A. King, E. F. Valeev,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, and C. D. Sherrill,
+    J. Chem. Theory Comput. 13(7) pp 3185--3197 (2017).
+    (doi: 10.1021/acs.jctc.7b00174)
+
+
+                         Additional Contributions by
+    P. Kraus, H. Kruse, M. H. Lechner, M. C. Schieber, R. A. Shaw,
+    A. Alenaizan, R. Galvelis, Z. L. Glick, S. Lehtola, and J. P. Misiewicz
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Friday, 29 January 2021 10:59AM
+
+    Process ID: 21476
+    Host:       c2-3.compute.lan
+    PSIDATADIR: /apps/gb/PSI4/1.4.0/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+memory 10 GB
+
+molecule  {
+-2 1
+S
+S 1 R1
+S 1 R2 2 A1
+R1 = 1.5
+R2 = 1.5
+A1 = 120.0
+}
+
+set {
+reference uks
+basis aug-cc-pvtz
+}
+
+optimize('m06')
+--------------------------------------------------------------------------
+
+  Memory set to   9.313 GiB by Python driver.
+gradient() will perform analytic gradient computation.
+
+*** tstart() called on c2-3.compute.lan
+*** at Fri Jan 29 10:59:12 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVTZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-3 entry S          line   906 file /apps/gb/PSI4/1.4.0/share/psi4/basis/aug-cc-pvtz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              UKS Reference
+                        1 Threads,   9536 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = -2, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         S            0.000000000000     0.000000000000    -0.500000000000    31.972071174400
+         S            0.000000000000    -1.299038105677     0.250000000000    31.972071174400
+         S            0.000000000000     1.299038105677     0.250000000000    31.972071174400
+
+  Running in c2v symmetry.
+
+  Rotational constants: A =      1.40603  B =      0.15623  C =      0.14060 [cm^-1]
+  Rotational constants: A =  42151.70639  B =   4683.52293  C =   4215.17064 [MHz]
+  Nuclear repulsion =  232.768004500367368
+
+  Charge       = -2
+  Multiplicity = 1
+  Electrons    = 50
+  Nalpha       = 25
+  Nbeta        = 25
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVTZ
+    Blend: AUG-CC-PVTZ
+    Number of shells: 48
+    Number of basis function: 150
+    Number of Cartesian functions: 177
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  ==> DFT Potential <==
+
+   => Composite Functional: M06 <= 
+
+    M06 Meta-GGA XC Functional
+
+    Y. Zhao and D. G. Truhlar,  Theor. Chem. Acc., 120, 215, 2008
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =           TRUE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000   XC_HYB_MGGA_X_M06
+
+   => Exact (HF) Exchange <=
+
+    0.2700               HF 
+
+   => Correlation Functionals <=
+
+    1.0000    XC_MGGA_C_M06
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          65714
+    Total Blocks           =            600
+    Max Points             =            256
+    Max Functions          =            150
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVTZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-3 entry S          line   730 file /apps/gb/PSI4/1.4.0/share/psi4/basis/aug-cc-pvtz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A1        54      54       0       0       0       0
+     A2        22      22       0       0       0       0
+     B1        29      29       0       0       0       0
+     B2        45      45       0       0       0       0
+   -------------------------------------------------------
+    Total     150     150      25      25      25       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.080 GiB; user supplied 6.322 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:              6473
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVTZ AUX)
+    Blend: AUG-CC-PVTZ-JKFIT
+    Number of shells: 126
+    Number of basis function: 438
+    Number of Cartesian functions: 540
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Cached 100.0% of DFT collocation blocks in 0.663 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 5.9779644928E-05.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-UKS iter SAD: -1196.15526903679893   -1.19616e+03   0.00000e+00 
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    12,    2,    3,    8 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter   1: -1193.40504512632879    2.75022e+00   1.22257e-02 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    3,    9 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter   2: -1185.20411319378695    8.20093e+00   3.79028e-02 DIIS
+   @DF-UKS iter   3: -1193.90375092760542   -8.69964e+00   4.92094e-03 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    4,    8 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter   4: -1193.97816399876660   -7.44131e-02   1.70663e-03 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    3,    9 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter   5: -1193.91195583698618    6.62082e-02   3.31139e-03 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    4,    8 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter   6: -1193.98095100968590   -6.89952e-02   1.52964e-03 DIIS
+   @DF-UKS iter   7: -1193.91600677821543    6.49442e-02   3.24219e-03 DIIS
+   @DF-UKS iter   8: -1193.92019015065580   -4.18337e-03   3.15899e-03 DIIS
+   @DF-UKS iter   9: -1193.92527760977669   -5.08746e-03   3.07365e-03 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    3,    9 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter  10: -1193.92478148794362    4.96122e-04   3.08047e-03 DIIS
+    Occupation by irrep:
+             A1    A2    B1    B2 
+    DOCC [    11,    2,    4,    8 ]
+    SOCC [     0,    0,    0,    0 ]
+
+   @DF-UKS iter  11: -1193.98808569353582   -6.33042e-02   1.00868e-03 DIIS
+   @DF-UKS iter  12: -1193.90147957040313    8.66061e-02   3.41758e-03 DIIS
+   @DF-UKS iter  13: -1193.90035916751890    1.12040e-03   3.44794e-03 DIIS
+   @DF-UKS iter  14: -1193.90501322469981   -4.65406e-03   3.35886e-03 DIIS
+   @DF-UKS iter  15: -1193.90152640861788    3.48682e-03   3.41737e-03 DIIS
+   @DF-UKS iter  16: -1193.90415556401013   -2.62916e-03   3.37876e-03 DIIS
+   @DF-UKS iter  17: -1193.90078381558169    3.37175e-03   3.43273e-03 DIIS
+   @DF-UKS iter  18: -1193.90371692177314   -2.93311e-03   3.38776e-03 DIIS
+   @DF-UKS iter  19: -1193.90093435481367    2.78257e-03   3.43233e-03 DIIS
+   @DF-UKS iter  20: -1193.90314839251005   -2.21404e-03   3.39623e-03 DIIS
+   @DF-UKS iter  21: -1193.90102227424632    2.12612e-03   3.43114e-03 DIIS
+   @DF-UKS iter  22: -1193.90272682103273   -1.70455e-03   3.40279e-03 DIIS
+   @DF-UKS iter  23: -1193.90117625900803    1.55056e-03   3.42864e-03 DIIS
+   @DF-UKS iter  24: -1193.90246993929122   -1.29368e-03   3.40705e-03 DIIS
+   @DF-UKS iter  25: -1193.90131880427589    1.15114e-03   3.42632e-03 DIIS
+   @DF-UKS iter  26: -1193.90229191164258   -9.73107e-04   3.41006e-03 DIIS
+   @DF-UKS iter  27: -1193.90143223225050    8.59679e-04   3.42446e-03 DIIS
+   @DF-UKS iter  28: -1193.90216306160210   -7.30829e-04   3.41224e-03 DIIS
+   @DF-UKS iter  29: -1193.90152078196206    6.42280e-04   3.42299e-03 DIIS
+   @DF-UKS iter  30: -1193.90206920766786   -5.48426e-04   3.41382e-03 DIIS
+   @DF-UKS iter  31: -1193.90158922444607    4.79983e-04   3.42186e-03 DIIS
+   @DF-UKS iter  32: -1193.90200042855622   -4.11204e-04   3.41498e-03 DIIS
+   @DF-UKS iter  33: -1193.90164162768269    3.58801e-04   3.42099e-03 DIIS
+   @DF-UKS iter  34: -1193.90194976240628   -3.08135e-04   3.41583e-03 DIIS
+   @DF-UKS iter  35: -1193.90168148913017    2.68273e-04   3.42032e-03 DIIS
+   @DF-UKS iter  36: -1193.90191229866059   -2.30810e-04   3.41646e-03 DIIS
+   @DF-UKS iter  37: -1193.90171167596918    2.00623e-04   3.41982e-03 DIIS
+   @DF-UKS iter  38: -1193.90188451794052   -1.72842e-04   3.41693e-03 DIIS
+   @DF-UKS iter  39: -1193.90173446400058    1.50054e-04   3.41944e-03 DIIS
+   @DF-UKS iter  40: -1193.90186387210497   -1.29408e-04   3.41727e-03 DIIS
+   @DF-UKS iter  41: -1193.90175162724609    1.12245e-04   3.41915e-03 DIIS
+   @DF-UKS iter  42: -1193.90184850279161   -9.68755e-05   3.41753e-03 DIIS
+   @DF-UKS iter  43: -1193.90176453246158    8.39703e-05   3.41894e-03 DIIS
+   @DF-UKS iter  44: -1193.90183704676019   -7.25143e-05   3.41772e-03 DIIS
+   @DF-UKS iter  45: -1193.90177422409806    6.28227e-05   3.41877e-03 DIIS
+   @DF-UKS iter  46: -1193.90182849930852   -5.42752e-05   3.41786e-03 DIIS
+   @DF-UKS iter  47: -1193.90178149576286    4.70035e-05   3.41865e-03 DIIS
+   @DF-UKS iter  48: -1193.90182211728779   -4.06215e-05   3.41797e-03 DIIS
+   @DF-UKS iter  49: -1193.90178694805286    3.51692e-05   3.41856e-03 DIIS
+   @DF-UKS iter  50: -1193.90181734945827   -3.04014e-05   3.41805e-03 DIIS
+   @DF-UKS iter  51: -1193.90179103410628    2.63154e-05   3.41849e-03 DIIS
+   @DF-UKS iter  52: -1193.90181378607031   -2.27520e-05   3.41811e-03 DIIS
+   @DF-UKS iter  53: -1193.90179409515486    1.96909e-05   3.41844e-03 DIIS
+   @DF-UKS iter  54: -1193.90181112200253   -1.70268e-05   3.41816e-03 DIIS
+   @DF-UKS iter  55: -1193.90179638768404    1.47343e-05   3.41840e-03 DIIS
+   @DF-UKS iter  56: -1193.90180912983965   -1.27422e-05   3.41819e-03 DIIS
+   @DF-UKS iter  57: -1193.90179810427753    1.10256e-05   3.41837e-03 DIIS
+   @DF-UKS iter  58: -1193.90180763984108   -9.53556e-06   3.41821e-03 DIIS
+   @DF-UKS iter  59: -1193.90179938942856    8.25041e-06   3.41835e-03 DIIS
+   @DF-UKS iter  60: -1193.90180652529125   -7.13586e-06   3.41823e-03 DIIS
+   @DF-UKS iter  61: -1193.90180035146886    6.17382e-06   3.41834e-03 DIIS
+   @DF-UKS iter  62: -1193.90180569148424   -5.34002e-06   3.41825e-03 DIIS
+   @DF-UKS iter  63: -1193.90180107157812    4.61991e-06   3.41832e-03 DIIS
+   @DF-UKS iter  64: -1193.90180506767092   -3.99609e-06   3.41826e-03 DIIS
+   @DF-UKS iter  65: -1193.90180161054082    3.45713e-06   3.41832e-03 DIIS
+   @DF-UKS iter  66: -1193.90180460094325   -2.99040e-06   3.41827e-03 DIIS
+   @DF-UKS iter  67: -1193.90180201392559    2.58702e-06   3.41831e-03 DIIS
+   @DF-UKS iter  68: -1193.90180425171411   -2.23779e-06   3.41827e-03 DIIS
+   @DF-UKS iter  69: -1193.90180231580962    1.93590e-06   3.41830e-03 DIIS
+   @DF-UKS iter  70: -1193.90180399041174   -1.67460e-06   3.41828e-03 DIIS
+   @DF-UKS iter  71: -1193.90180254174084    1.44867e-06   3.41830e-03 DIIS
+   @DF-UKS iter  72: -1193.90180379488584   -1.25315e-06   3.41828e-03 DIIS
+   @DF-UKS iter  73: -1193.90180271081363    1.08407e-06   3.41830e-03 DIIS
+   @DF-UKS iter  74: -1193.90180364857497   -9.37761e-07   3.41828e-03 DIIS
+   @DF-UKS iter  75: -1193.90180283734117    8.11234e-07   3.41829e-03 DIIS
+   @DF-UKS iter  76: -1193.90180353909454   -7.01753e-07   3.41828e-03 DIIS
+   @DF-UKS iter  77: -1193.90180293203321    6.07061e-07   3.41829e-03 DIIS
+   @DF-UKS iter  78: -1193.90180345716863   -5.25135e-07   3.41828e-03 DIIS
+   @DF-UKS iter  79: -1193.90180300288853    4.54280e-07   3.41829e-03 DIIS
+   @DF-UKS iter  80: -1193.90180339586368   -3.92975e-07   3.41829e-03 DIIS
+   @DF-UKS iter  81: -1193.90180305591230    3.39951e-07   3.41829e-03 DIIS
+   @DF-UKS iter  82: -1193.90180334998558   -2.94073e-07   3.41829e-03 DIIS
+   @DF-UKS iter  83: -1193.90180309560174    2.54384e-07   3.41829e-03 DIIS
+   @DF-UKS iter  84: -1193.90180331565466   -2.20053e-07   3.41829e-03 DIIS
+   @DF-UKS iter  85: -1193.90180312529310    1.90362e-07   3.41829e-03 DIIS
+   @DF-UKS iter  86: -1193.90180328996485   -1.64672e-07   3.41829e-03 DIIS
+   @DF-UKS iter  87: -1193.90180314751728    1.42448e-07   3.41829e-03 DIIS
+   @DF-UKS iter  88: -1193.90180327074631   -1.23229e-07   3.41829e-03 DIIS
+   @DF-UKS iter  89: -1193.90180316413716    1.06609e-07   3.41829e-03 DIIS
+   @DF-UKS iter  90: -1193.90180325636356   -9.22264e-08   3.41829e-03 DIIS
+   @DF-UKS iter  91: -1193.90180317658496    7.97786e-08   3.41829e-03 DIIS
+   @DF-UKS iter  92: -1193.90180324560197   -6.90170e-08   3.41829e-03 DIIS
+   @DF-UKS iter  93: -1193.90180318589614    5.97058e-08   3.41829e-03 DIIS
+   @DF-UKS iter  94: -1193.90180323754475   -5.16486e-08   3.41829e-03 DIIS
+   @DF-UKS iter  95: -1193.90180319286355    4.46812e-08   3.41829e-03 DIIS
+   @DF-UKS iter  96: -1193.90180323151390   -3.86503e-08   3.41829e-03 DIIS
+   @DF-UKS iter  97: -1193.90180319807814    3.34358e-08   3.41829e-03 DIIS
+   @DF-UKS iter  98: -1193.90180322701144   -2.89333e-08   3.41829e-03 DIIS
+   @DF-UKS iter  99: -1193.90180320196896    2.50425e-08   3.41829e-03 DIIS
+   @DF-UKS iter 100: -1193.90180322363631   -2.16673e-08   3.41829e-03 DIIS
+
+PsiException: Could not converge SCF iterations in 100 iterations.
+
+  Failed to converge.
+
+Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 32, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 707, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2172, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 100 iterations.
+
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    A1 = 120.0
+    """)
+    core.IO.set_default_namespace("")
+    core.set_global_option("REFERENCE", "uks")
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+--> optimize('m06')
+
+    Psi4 stopped on: Friday, 29 January 2021 11:02AM
+    Psi4 wall time for execution: 0:03:31.85
+
+*** Psi4 encountered an error. Buy a developer more coffee!
+*** Resources and help at github.com/psi4/psi4.
