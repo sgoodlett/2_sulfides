@@ -1,0 +1,183 @@
+
+
+  Module  Options:
+  ----------------------------------------------------------------------------
+
+MAX_FORCE_G_CONVERGENCE set to 1E-07
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of gradients to determine vibrational frequencies and 
+  normal modes. Resulting frequencies are only valid at stationary points.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of irreps is 4.
+    Number of SALCs is 4.
+    Translations projected? 1. Rotations projected? 1.
+    Index of SALCs per irrep:
+     1 :  0  1 
+     2 : 
+     3 :  2 
+     4 :  3 
+    Number of SALCs per irrep:
+     Irrep 1: 2
+     Irrep 2: 0
+     Irrep 3: 1
+     Irrep 4: 1
+    Number of geometries (including reference) is 9.
+    Number of displacements per irrep:
+      Irrep 1: 6
+      Irrep 2: 0
+      Irrep 3: 1
+      Irrep 4: 1
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing second-derivative from energies using projected, 
+  symmetry-adapted, cartesian coordinates.
+
+  9 energies passed in, including the reference geometry.
+    Using 3-point formula.
+    Energy without displacement: -1394.6869719307
+    Check energies below for precision!
+    0: -1        :     -1394.6869717932
+    0: 1         :     -1394.6869717936
+    1: -1        :     -1394.6869718588
+    1: 1         :     -1394.6869718591
+    0: 1, 1: 1   :     -1394.6869718675
+    0: -1, 1: -1 :     -1394.6869718663
+    2: -1        :     -1394.6869719318
+    3: -1        :     -1394.6869719319
+
+-------------------------------------------------------------
+   => Loading Basis Set <=
+
+    Name: STO-3G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry S          line   181 file /apps/gb/PSI4/1.4.0/share/psi4/basis/sto-3g.gbs 
+    atoms 3   entry K          line   223 file /apps/gb/PSI4/1.4.0/share/psi4/basis/sto-3g.gbs 
+
+
+
+  ==> Harmonic Vibrational Analysis <==
+
+  non-mass-weighted Hessian:       Symmetric? True   Hermitian? True   Lin Dep Dim?  5 (0)
+  projection of translations (True) and rotations (True) removed 5 degrees of freedom (5)
+  total projector:                 Symmetric? True   Hermitian? True   Lin Dep Dim?  5 (5)
+  mass-weighted Hessian:           Symmetric? True   Hermitian? True   Lin Dep Dim?  5 (0)
+  pre-proj  low-frequency mode:    0.0000i [cm^-1]
+  pre-proj  low-frequency mode:    0.0000i [cm^-1]
+  pre-proj  low-frequency mode:    0.0000i [cm^-1]
+  pre-proj  low-frequency mode:    0.0000i [cm^-1]
+  pre-proj  low-frequency mode:    0.0000i [cm^-1]
+  pre-proj  low-frequency mode:    0.0000  [cm^-1]
+  pre-proj  low-frequency mode:    0.0000  [cm^-1]
+  pre-proj  all modes:['50.5489i' '47.6513i' '0.0000i' '0.0000i' '0.0000i' '0.0000' '0.0000'
+ '229.1667' '623.9748']
+  projected mass-weighted Hessian: Symmetric? True   Hermitian? True   Lin Dep Dim?  5 (5)
+  post-proj low-frequency mode:   50.5489i [cm^-1] (V)
+  post-proj low-frequency mode:   47.6513i [cm^-1] (V)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
+  post-proj  all modes:['50.5489i' '47.6513i' '0.0000i' '0.0000i' '0.0000i' '0.0000' '0.0000'
+ '229.1667' '623.9748']
+
+  Vibration                       1                   2                   8           
+  Freq [cm^-1]                 50.5489i            47.6513i            229.1667       
+  Irrep                           B2                  B1                  A1          
+  Reduced mass [u]             32.5048             32.5048             35.9821        
+  Force const [mDyne/A]        -0.0489             -0.0435              1.1134        
+  Turning point v=0 [a0]        0.0000              0.0000              0.1208        
+  RMS dev v=0 [a0 u^1/2]        0.0000              0.0000              0.5125        
+  Char temp [K]                 0.0000              0.0000             329.7198       
+  ----------------------------------------------------------------------------------
+      1   S                0.00  0.83  0.00    0.83  0.00  0.00   -0.00  0.00 -0.48   
+      2   S               -0.00 -0.49  0.00   -0.49 -0.00  0.00    0.00 -0.00 -0.45   
+      3   K                0.00 -0.28  0.00   -0.28 -0.00  0.00   -0.00 -0.00  0.76   
+
+  Vibration                       9           
+  Freq [cm^-1]                 623.9748       
+  Irrep                           A1          
+  Reduced mass [u]             31.9738        
+  Force const [mDyne/A]         7.3346        
+  Turning point v=0 [a0]        0.0777        
+  RMS dev v=0 [a0 u^1/2]        0.3106        
+  Char temp [K]                897.7608       
+  ----------------------------------------------------------------------------------
+      1   S                0.00 -0.00 -0.70   
+      2   S               -0.00 -0.00  0.72   
+      3   K                0.00 -0.00 -0.02   
+
+  ==> Thermochemistry Components <==
+
+  Entropy, S
+    Electronic S            1.377 [cal/(mol K)]        5.763 [J/(mol K)]       0.00219507 [mEh/K] (multiplicity = 2)
+    Translational S        39.803 [cal/(mol K)]      166.538 [J/(mol K)]       0.06343081 [mEh/K] (mol. weight = 102.9078 [u], P = 101325.00 [Pa])
+    Rotational S           19.076 [cal/(mol K)]       79.814 [J/(mol K)]       0.03039973 [mEh/K] (symmetry no. = 1)
+    Vibrational S           2.296 [cal/(mol K)]        9.605 [J/(mol K)]       0.00365839 [mEh/K]
+  Total S                  62.553 [cal/(mol K)]      261.720 [J/(mol K)]       0.09968399 [mEh/K]
+  Correction S              0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
+
+  Constant volume heat capacity, Cv
+    Electronic Cv           0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
+    Translational Cv        2.981 [cal/(mol K)]       12.472 [J/(mol K)]       0.00475022 [mEh/K]
+    Rotational Cv           1.987 [cal/(mol K)]        8.314 [J/(mol K)]       0.00316681 [mEh/K]
+    Vibrational Cv          2.778 [cal/(mol K)]       11.623 [J/(mol K)]       0.00442683 [mEh/K]
+  Total Cv                  7.746 [cal/(mol K)]       32.409 [J/(mol K)]       0.01234386 [mEh/K]
+  Correction Cv             0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
+
+  Constant pressure heat capacity, Cp
+    Electronic Cp           0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
+    Translational Cp        4.968 [cal/(mol K)]       20.786 [J/(mol K)]       0.00791703 [mEh/K]
+    Rotational Cp           1.987 [cal/(mol K)]        8.314 [J/(mol K)]       0.00316681 [mEh/K]
+    Vibrational Cp          2.778 [cal/(mol K)]       11.623 [J/(mol K)]       0.00442683 [mEh/K]
+  Total Cp                  9.733 [cal/(mol K)]       40.723 [J/(mol K)]       0.01551067 [mEh/K]
+  Correction Cp             0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
+
+  ==> Thermochemistry Energy Analysis <==
+
+  Raw electronic energy, E0
+  Total E0, Electronic energy at well bottom at 0 [K]                -1394.68697193 [Eh]
+
+  Zero-point energy, ZPE_vib = Sum_i nu_i / 2
+    Electronic ZPE          0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
+    Translational ZPE       0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
+    Rotational ZPE          0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
+    Vibrational ZPE         1.220 [kcal/mol]        5.103 [kJ/mol]       0.00194360 [Eh]         426.571 [cm^-1]
+  Correction ZPE            1.220 [kcal/mol]        5.103 [kJ/mol]       0.00194360 [Eh]         426.571 [cm^-1]
+  Total ZPE, Electronic energy at 0 [K]                              -1394.68502833 [Eh]
+
+  Thermal Energy, E (includes ZPE)
+    Electronic E            0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
+    Translational E         0.889 [kcal/mol]        3.718 [kJ/mol]       0.00141628 [Eh]
+    Rotational E            0.592 [kcal/mol]        2.479 [kJ/mol]       0.00094418 [Eh]
+    Vibrational E           1.636 [kcal/mol]        6.845 [kJ/mol]       0.00260726 [Eh]
+  Correction E              3.117 [kcal/mol]       13.043 [kJ/mol]       0.00496772 [Eh]
+  Total E, Electronic energy at  298.15 [K]                          -1394.68200421 [Eh]
+
+  Enthalpy, H_trans = E_trans + k_B * T
+    Electronic H            0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
+    Translational H         1.481 [kcal/mol]        6.197 [kJ/mol]       0.00236046 [Eh]
+    Rotational H            0.592 [kcal/mol]        2.479 [kJ/mol]       0.00094418 [Eh]
+    Vibrational H           1.636 [kcal/mol]        6.845 [kJ/mol]       0.00260726 [Eh]
+  Correction H              3.710 [kcal/mol]       15.522 [kJ/mol]       0.00591190 [Eh]
+  Total H, Enthalpy at  298.15 [K]                                   -1394.68106003 [Eh]
+
+  Gibbs free energy, G = H - T * S
+    Electronic G           -0.411 [kcal/mol]       -1.718 [kJ/mol]      -0.00065446 [Eh]
+    Translational G       -10.386 [kcal/mol]      -43.456 [kJ/mol]      -0.01655143 [Eh]
+    Rotational G           -5.095 [kcal/mol]      -21.318 [kJ/mol]      -0.00811949 [Eh]
+    Vibrational G           0.952 [kcal/mol]        3.982 [kJ/mol]       0.00151651 [Eh]
+  Correction G            -14.940 [kcal/mol]      -62.510 [kJ/mol]      -0.02380888 [Eh]
+  Total G, Free enthalpy at  298.15 [K]                              -1394.71078081 [Eh]

@@ -1,0 +1,93 @@
+[ 0.          0.          0.91767139  0.          0.          4.72666995
+  0.          0.         -4.63152249]
+[ 0.          0.          0.91913971  0.          0.          4.72600815
+  0.          0.         -4.63218429]
+[ 0.          0.          0.91840555  0.          0.          4.72568368
+  0.          0.         -4.63131563]
+[ 0.          0.          0.91840555  0.          0.          4.72699441
+  0.          0.         -4.63239116]
+[ 0.          0.          0.91913971  0.          0.          4.72666351
+  0.          0.         -4.63272206]
+[ 0.          0.          0.91767139  0.          0.          4.72601459
+  0.          0.         -4.63098473]
+[-7.25000744e-04  0.00000000e+00  9.18405550e-01  4.29991357e-04
+  0.00000000e+00  4.72633905e+00  2.42072995e-04  0.00000000e+00
+ -4.63185339e+00]
+[ 0.00000000e+00 -7.25000744e-04  9.18405550e-01  0.00000000e+00
+  4.29991357e-04  4.72633905e+00  0.00000000e+00  2.42072995e-04
+ -4.63185339e+00]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/5/output.dat
+Could not open output file for singlepoint: 6
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/6/output.dat
+Could not open output file for singlepoint: 7
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/7/output.dat
+Could not open output file for singlepoint: 8
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/8/output.dat
+Could not open output file for singlepoint: 9
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/freq/HESS/9/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998340                                                         c_inf_v-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998341                                                         c_inf_v-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998342                                                         c_inf_v-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998343                                                         c_inf_v-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998344                                                         c_inf_v-5    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998345                                                         c_inf_v-6    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998346                                                         c_inf_v-7    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998347                                                         c_inf_v-8    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998348                                                         c_inf_v-9    RUNNING 
+
+energy
+key reference result -1394.6869719306846
+key 0: -1 result -1394.6869717932145
+key 0: 1 result -1394.686971793605
+key 1: -1 result -1394.686971858816
+key 1: 1 result -1394.686971859063
+key 0: 1, 1: 1 result -1394.6869718675448
+key 0: -1, 1: -1 result -1394.6869718662545
+key 2: -1 result -1394.6869719317588
+key 3: -1 result -1394.6869719318934
+Warning: thermodynamics relations excluded imaginary frequencies: ['50.5489i' '47.6513i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['229.1667' '623.9748']

@@ -1,0 +1,1248 @@
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+/home/smg13363/pkg/optavc/optimize.py:46: FutureWarning: Using `psi4.core.set_gradient` (only used internally for C++ optking; deprecated silently in 1.2) is deprecated, and in 1.4 (or whenever Py optking is adopted) it will stop working
+
+  psi4.core.set_gradient(grad)
+
+====================Beginning new step 0======================
+
+Creating correct gradient class
+[ 0.          0.          0.78835146  0.          0.          4.52327281
+  0.          0.         -4.35850807]
+[ 0.          0.          0.78981979  0.          0.          4.522611
+  0.          0.         -4.35916987]
+[ 0.          0.          0.78908563  0.          0.          4.52228654
+  0.          0.         -4.35830121]
+[ 0.          0.          0.78908563  0.          0.          4.52359727
+  0.          0.         -4.35937674]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP00/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP00/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP00/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP00/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP00/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912673                                                   ccsd_t_tz--00-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912674                                                   ccsd_t_tz--00-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912675                                                   ccsd_t_tz--00-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912676                                                   ccsd_t_tz--00-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912677                                                   ccsd_t_tz--00-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912673                                                   ccsd_t_tz--00-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912674                                                   ccsd_t_tz--00-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912675                                                   ccsd_t_tz--00-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912676                                                   ccsd_t_tz--00-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912677                                                   ccsd_t_tz--00-5  COMPLETED 
+
+
+====================Beginning new step 1======================
+
+Creating correct gradient class
+[ 0.          0.          0.90083144  0.          0.          4.8124212
+  0.          0.         -4.68806838]
+[ 0.          0.          0.90229977  0.          0.          4.8117594
+  0.          0.         -4.68873018]
+[ 0.          0.          0.90156561  0.          0.          4.81143494
+  0.          0.         -4.68786151]
+[ 0.          0.          0.90156561  0.          0.          4.81274566
+  0.          0.         -4.68893704]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP01/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP01/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP01/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP01/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP01/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912700                                                   ccsd_t_tz--01-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912701                                                   ccsd_t_tz--01-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912702                                                   ccsd_t_tz--01-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912703                                                   ccsd_t_tz--01-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912704                                                   ccsd_t_tz--01-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912700                                                   ccsd_t_tz--01-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912701                                                   ccsd_t_tz--01-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912702                                                   ccsd_t_tz--01-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912703                                                   ccsd_t_tz--01-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912704                                                   ccsd_t_tz--01-5  COMPLETED 
+
+
+====================Beginning new step 2======================
+
+Creating correct gradient class
+[ 0.          0.          0.90847375  0.          0.          4.77136739
+  0.          0.         -4.66065222]
+[ 0.          0.          0.90994207  0.          0.          4.77070559
+  0.          0.         -4.66131402]
+[ 0.          0.          0.90920791  0.          0.          4.77038113
+  0.          0.         -4.66044536]
+[ 0.          0.          0.90920791  0.          0.          4.77169185
+  0.          0.         -4.66152089]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP02/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP02/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP02/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP02/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP02/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912710                                                   ccsd_t_tz--02-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912711                                                   ccsd_t_tz--02-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912712                                                   ccsd_t_tz--02-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912713                                                   ccsd_t_tz--02-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912714                                                   ccsd_t_tz--02-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912710                                                   ccsd_t_tz--02-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912711                                                   ccsd_t_tz--02-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912712                                                   ccsd_t_tz--02-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912713                                                   ccsd_t_tz--02-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912714                                                   ccsd_t_tz--02-5  COMPLETED 
+
+
+====================Beginning new step 3======================
+
+Creating correct gradient class
+[ 0.          0.          0.92001268  0.          0.          4.7510495
+  0.          0.         -4.65344856]
+[ 0.          0.          0.92148101  0.          0.          4.7503877
+  0.          0.         -4.65411036]
+[ 0.          0.          0.92074684  0.          0.          4.75006324
+  0.          0.         -4.65324169]
+[ 0.          0.          0.92074684  0.          0.          4.75137396
+  0.          0.         -4.65431722]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP03/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP03/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP03/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP03/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP03/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912727                                                   ccsd_t_tz--03-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912728                                                   ccsd_t_tz--03-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912729                                                   ccsd_t_tz--03-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912730                                                   ccsd_t_tz--03-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912731                                                   ccsd_t_tz--03-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912727                                                   ccsd_t_tz--03-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912728                                                   ccsd_t_tz--03-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912729                                                   ccsd_t_tz--03-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912730                                                   ccsd_t_tz--03-4  COMPLETED 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912731                                                   ccsd_t_tz--03-5    RUNNING 
+
+
+====================Beginning new step 4======================
+
+Creating correct gradient class
+[ 0.          0.          0.92080116  0.          0.          4.72304177
+  0.          0.         -4.63111352]
+[ 0.          0.          0.92226949  0.          0.          4.72237997
+  0.          0.         -4.63177532]
+[ 0.          0.          0.92153533  0.          0.          4.72205551
+  0.          0.         -4.63090666]
+[ 0.          0.          0.92153533  0.          0.          4.72336623
+  0.          0.         -4.63198219]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912835                                                   ccsd_t_tz--04-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912836                                                   ccsd_t_tz--04-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912837                                                   ccsd_t_tz--04-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912838                                                   ccsd_t_tz--04-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912839                                                   ccsd_t_tz--04-5    PENDING 
+
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP04/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912835                                                   ccsd_t_tz--04-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912836                                                   ccsd_t_tz--04-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912837                                                   ccsd_t_tz--04-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912838                                                   ccsd_t_tz--04-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912839                                                   ccsd_t_tz--04-5    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912835                                                   ccsd_t_tz--04-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912836                                                   ccsd_t_tz--04-2    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912837                                                   ccsd_t_tz--04-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912838                                                   ccsd_t_tz--04-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912839                                                   ccsd_t_tz--04-5  COMPLETED 
+
+
+====================Beginning new step 5======================
+
+Creating correct gradient class
+[ 0.          0.          0.91817971  0.          0.          4.72768764
+  0.          0.         -4.63277468]
+[ 0.          0.          0.91964804  0.          0.          4.72702584
+  0.          0.         -4.63343648]
+[ 0.          0.          0.91891388  0.          0.          4.72670138
+  0.          0.         -4.63256781]
+[ 0.          0.          0.91891388  0.          0.          4.7280121
+  0.          0.         -4.63364334]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912865                                                   ccsd_t_tz--05-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912866                                                   ccsd_t_tz--05-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912867                                                   ccsd_t_tz--05-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912868                                                   ccsd_t_tz--05-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912869                                                   ccsd_t_tz--05-5    PENDING 
+
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912865                                                   ccsd_t_tz--05-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912866                                                   ccsd_t_tz--05-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912867                                                   ccsd_t_tz--05-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912868                                                   ccsd_t_tz--05-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912869                                                   ccsd_t_tz--05-5    PENDING 
+
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP05/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912865                                                   ccsd_t_tz--05-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912866                                                   ccsd_t_tz--05-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912867                                                   ccsd_t_tz--05-3    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912868                                                   ccsd_t_tz--05-4  COMPLETED 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912869                                                   ccsd_t_tz--05-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912865                                                   ccsd_t_tz--05-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912866                                                   ccsd_t_tz--05-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912867                                                   ccsd_t_tz--05-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912868                                                   ccsd_t_tz--05-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912869                                                   ccsd_t_tz--05-5  COMPLETED 
+
+
+====================Beginning new step 6======================
+
+Creating correct gradient class
+[ 0.          0.          0.91774818  0.          0.          4.72663478
+  0.          0.         -4.63155665]
+[ 0.          0.          0.91921651  0.          0.          4.72597298
+  0.          0.         -4.63221845]
+[ 0.          0.          0.91848235  0.          0.          4.72564852
+  0.          0.         -4.63134979]
+[ 0.          0.          0.91848235  0.          0.          4.72695924
+  0.          0.         -4.63242532]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912889                                                   ccsd_t_tz--06-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912890                                                   ccsd_t_tz--06-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912891                                                   ccsd_t_tz--06-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912892                                                   ccsd_t_tz--06-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912893                                                   ccsd_t_tz--06-5    PENDING 
+
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP06/4/output.dat
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912889                                                   ccsd_t_tz--06-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912890                                                   ccsd_t_tz--06-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912891                                                   ccsd_t_tz--06-3  COMPLETED 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912892                                                   ccsd_t_tz--06-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912893                                                   ccsd_t_tz--06-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912889                                                   ccsd_t_tz--06-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912890                                                   ccsd_t_tz--06-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912891                                                   ccsd_t_tz--06-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912892                                                   ccsd_t_tz--06-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912893                                                   ccsd_t_tz--06-5  COMPLETED 
+
+
+====================Beginning new step 7======================
+
+Creating correct gradient class
+[ 0.          0.          0.91767612  0.          0.          4.72667308
+  0.          0.         -4.63152895]
+[ 0.          0.          0.91914445  0.          0.          4.72601128
+  0.          0.         -4.63219075]
+[ 0.          0.          0.91841029  0.          0.          4.72568682
+  0.          0.         -4.63132208]
+[ 0.          0.          0.91841029  0.          0.          4.72699755
+  0.          0.         -4.63239761]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912909                                                   ccsd_t_tz--07-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912910                                                   ccsd_t_tz--07-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912911                                                   ccsd_t_tz--07-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912912                                                   ccsd_t_tz--07-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912913                                                   ccsd_t_tz--07-5    PENDING 
+
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP07/5/output.dat
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912909                                                   ccsd_t_tz--07-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912910                                                   ccsd_t_tz--07-2  COMPLETED 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912911                                                   ccsd_t_tz--07-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912912                                                   ccsd_t_tz--07-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912913                                                   ccsd_t_tz--07-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912909                                                   ccsd_t_tz--07-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912910                                                   ccsd_t_tz--07-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912911                                                   ccsd_t_tz--07-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912912                                                   ccsd_t_tz--07-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1912913                                                   ccsd_t_tz--07-5  COMPLETED 
+
+
+====================Beginning new step 8======================
+
+Creating correct gradient class
+[ 0.          0.          0.91767228  0.          0.          4.72667073
+  0.          0.         -4.63152387]
+[ 0.          0.          0.91914061  0.          0.          4.72600893
+  0.          0.         -4.63218567]
+[ 0.          0.          0.91840645  0.          0.          4.72568446
+  0.          0.         -4.631317  ]
+[ 0.          0.          0.91840645  0.          0.          4.72699519
+  0.          0.         -4.63239253]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913049                                                   ccsd_t_tz--08-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913050                                                   ccsd_t_tz--08-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913051                                                   ccsd_t_tz--08-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913052                                                   ccsd_t_tz--08-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913053                                                   ccsd_t_tz--08-5    PENDING 
+
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP08/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913049                                                   ccsd_t_tz--08-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913050                                                   ccsd_t_tz--08-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913051                                                   ccsd_t_tz--08-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913052                                                   ccsd_t_tz--08-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913053                                                   ccsd_t_tz--08-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913049                                                   ccsd_t_tz--08-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913050                                                   ccsd_t_tz--08-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913051                                                   ccsd_t_tz--08-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913052                                                   ccsd_t_tz--08-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913053                                                   ccsd_t_tz--08-5  COMPLETED 
+
+
+====================Beginning new step 9======================
+
+Creating correct gradient class
+[ 0.          0.          0.91767493  0.          0.          4.72667259
+  0.          0.         -4.63152757]
+[ 0.          0.          0.91914325  0.          0.          4.72601079
+  0.          0.         -4.63218937]
+[ 0.          0.          0.91840909  0.          0.          4.72568633
+  0.          0.         -4.6313207 ]
+[ 0.          0.          0.91840909  0.          0.          4.72699706
+  0.          0.         -4.63239623]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913165                                                   ccsd_t_tz--09-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913166                                                   ccsd_t_tz--09-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913167                                                   ccsd_t_tz--09-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913168                                                   ccsd_t_tz--09-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913169                                                   ccsd_t_tz--09-5    PENDING 
+
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913165                                                   ccsd_t_tz--09-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913166                                                   ccsd_t_tz--09-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913167                                                   ccsd_t_tz--09-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913168                                                   ccsd_t_tz--09-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913169                                                   ccsd_t_tz--09-5    PENDING 
+
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913165                                                   ccsd_t_tz--09-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913166                                                   ccsd_t_tz--09-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913167                                                   ccsd_t_tz--09-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913168                                                   ccsd_t_tz--09-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913169                                                   ccsd_t_tz--09-5    PENDING 
+
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP09/5/output.dat
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913165                                                   ccsd_t_tz--09-1  COMPLETED 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913166                                                   ccsd_t_tz--09-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913167                                                   ccsd_t_tz--09-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913168                                                   ccsd_t_tz--09-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913169                                                   ccsd_t_tz--09-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913165                                                   ccsd_t_tz--09-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913166                                                   ccsd_t_tz--09-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913167                                                   ccsd_t_tz--09-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913168                                                   ccsd_t_tz--09-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913169                                                   ccsd_t_tz--09-5  COMPLETED 
+
+
+====================Beginning new step 10======================
+
+Creating correct gradient class
+[ 0.          0.          0.91767309  0.          0.          4.72667153
+  0.          0.         -4.63152518]
+[ 0.          0.          0.91914142  0.          0.          4.72600973
+  0.          0.         -4.63218699]
+[ 0.          0.          0.91840725  0.          0.          4.72568526
+  0.          0.         -4.63131832]
+[ 0.          0.          0.91840725  0.          0.          4.72699599
+  0.          0.         -4.63239385]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913309                                                   ccsd_t_tz--10-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913310                                                   ccsd_t_tz--10-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913311                                                   ccsd_t_tz--10-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913312                                                   ccsd_t_tz--10-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913313                                                   ccsd_t_tz--10-5    PENDING 
+
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP10/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913309                                                   ccsd_t_tz--10-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913310                                                   ccsd_t_tz--10-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913311                                                   ccsd_t_tz--10-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913312                                                   ccsd_t_tz--10-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913313                                                   ccsd_t_tz--10-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913309                                                   ccsd_t_tz--10-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913310                                                   ccsd_t_tz--10-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913311                                                   ccsd_t_tz--10-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913312                                                   ccsd_t_tz--10-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913313                                                   ccsd_t_tz--10-5  COMPLETED 
+
+
+====================Beginning new step 11======================
+
+Creating correct gradient class
+[ 0.          0.          0.91767139  0.          0.          4.72666997
+  0.          0.         -4.63152251]
+[ 0.          0.          0.91913972  0.          0.          4.72600816
+  0.          0.         -4.63218431]
+[ 0.          0.          0.91840555  0.          0.          4.7256837
+  0.          0.         -4.63131564]
+[ 0.          0.          0.91840555  0.          0.          4.72699443
+  0.          0.         -4.63239117]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913384                                                   ccsd_t_tz--11-1    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913385                                                   ccsd_t_tz--11-2    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913386                                                   ccsd_t_tz--11-3    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913387                                                   ccsd_t_tz--11-4    PENDING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913388                                                   ccsd_t_tz--11-5    PENDING 
+
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c_inf_v/STEP11/5/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913384                                                   ccsd_t_tz--11-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913385                                                   ccsd_t_tz--11-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913386                                                   ccsd_t_tz--11-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913387                                                   ccsd_t_tz--11-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913388                                                   ccsd_t_tz--11-5    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913384                                                   ccsd_t_tz--11-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913385                                                   ccsd_t_tz--11-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913386                                                   ccsd_t_tz--11-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913387                                                   ccsd_t_tz--11-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1913388                                                   ccsd_t_tz--11-5  COMPLETED 
+
+
+
+ OPTIMIZATION HAS FINISHED!
+
+

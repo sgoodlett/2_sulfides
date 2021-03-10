@@ -1,0 +1,207 @@
+[-2.25962516e+00  1.96270618e+00  0.00000000e+00 -2.25852306e+00
+ -1.96223241e+00  0.00000000e+00  3.70741312e+00 -3.88757214e-04
+  0.00000000e+00]
+[-2.25828041e+00  1.96240864e+00  0.00000000e+00 -2.25898720e+00
+ -1.96252993e+00  0.00000000e+00  3.70669052e+00  9.95288131e-05
+  0.00000000e+00]
+[-2.25895279e+00  1.96192359e+00  0.00000000e+00 -2.25885847e+00
+ -1.96178132e+00  0.00000000e+00  3.70713661e+00 -1.16741441e-04
+  0.00000000e+00]
+[-2.25895279e+00  1.96319123e+00  0.00000000e+00 -2.25865179e+00
+ -1.96298102e+00  0.00000000e+00  3.70696702e+00 -1.72486960e-04
+  0.00000000e+00]
+[-2.25895279e+00  1.96255741e+00  0.00000000e+00 -2.25937768e+00
+ -1.96258594e+00  0.00000000e+00  3.70756266e+00  2.34088085e-05
+  0.00000000e+00]
+[-2.25895279e+00  1.96255741e+00  0.00000000e+00 -2.25813258e+00
+ -1.96217641e+00  0.00000000e+00  3.70654098e+00 -3.12637209e-04
+  0.00000000e+00]
+[-2.25828041e+00  1.96304246e+00  0.00000000e+00 -2.25888386e+00
+ -1.96312978e+00  0.00000000e+00  3.70660572e+00  7.16560532e-05
+  0.00000000e+00]
+[-2.25962516e+00  1.96207237e+00  0.00000000e+00 -2.25862640e+00
+ -1.96163256e+00  0.00000000e+00  3.70749791e+00 -3.60884454e-04
+  0.00000000e+00]
+[-2.25828041e+00  1.96240864e+00  0.00000000e+00 -2.25836464e+00
+ -1.96232517e+00  0.00000000e+00  3.70617968e+00 -6.84941958e-05
+  0.00000000e+00]
+[-2.25962516e+00  1.96270618e+00  0.00000000e+00 -2.25914561e+00
+ -1.96243718e+00  0.00000000e+00  3.70792396e+00 -2.20734205e-04
+  0.00000000e+00]
+[-2.25895279e+00  1.96319123e+00  0.00000000e+00 -2.25802924e+00
+ -1.96277626e+00  0.00000000e+00  3.70645618e+00 -3.40509969e-04
+  0.00000000e+00]
+[-2.25895279e+00  1.96192359e+00  0.00000000e+00 -2.25948102e+00
+ -1.96198609e+00  0.00000000e+00  3.70764745e+00  5.12815684e-05
+  0.00000000e+00]
+Could not open output file for singlepoint: 1
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/1/output.dat
+Could not open output file for singlepoint: 2
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/2/output.dat
+Could not open output file for singlepoint: 3
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/3/output.dat
+Could not open output file for singlepoint: 4
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/4/output.dat
+Could not open output file for singlepoint: 5
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/5/output.dat
+Could not open output file for singlepoint: 6
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/6/output.dat
+Could not open output file for singlepoint: 7
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/7/output.dat
+Could not open output file for singlepoint: 8
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/8/output.dat
+Could not open output file for singlepoint: 9
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/9/output.dat
+Could not open output file for singlepoint: 10
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/10/output.dat
+Could not open output file for singlepoint: 11
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/11/output.dat
+Could not open output file for singlepoint: 12
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/12/output.dat
+Could not open output file for singlepoint: 13
+Tried to open /scratch/smg13363/workDir/2_sulfides/opts/ks2/ccsd_t/c2v/freq/HESS/13/output.dat
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998327                                                       ccsd_t_tz-1    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998328                                                       ccsd_t_tz-2    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998329                                                       ccsd_t_tz-3    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998330                                                       ccsd_t_tz-4    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998331                                                       ccsd_t_tz-5    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998332                                                       ccsd_t_tz-6    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998333                                                       ccsd_t_tz-7    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998334                                                       ccsd_t_tz-8    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998335                                                       ccsd_t_tz-9    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998336                                                      ccsd_t_tz-10    RUNNING 
+
+state: False
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998337                                                      ccsd_t_tz-11    RUNNING 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998338                                                      ccsd_t_tz-12  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998339                                                      ccsd_t_tz-13  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998327                                                       ccsd_t_tz-1  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998328                                                       ccsd_t_tz-2  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998329                                                       ccsd_t_tz-3  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998330                                                       ccsd_t_tz-4  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998331                                                       ccsd_t_tz-5  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998332                                                       ccsd_t_tz-6  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998333                                                       ccsd_t_tz-7  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998334                                                       ccsd_t_tz-8  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998335                                                       ccsd_t_tz-9  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998336                                                      ccsd_t_tz-10  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998337                                                      ccsd_t_tz-11  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998338                                                      ccsd_t_tz-12  COMPLETED 
+
+state: True
+output:        JobID                                                      JobName      State 
+------------        ----------------------------------------------------- ---------- 
+1998339                                                      ccsd_t_tz-13  COMPLETED 
+
+energy
+key reference result -1394.7068627870306
+key 0: -1 result -1394.7068627776691
+key 0: 1 result -1394.7068627662698
+key 1: -1 result -1394.7068625557495
+key 1: 1 result -1394.7068625698196
+key 2: -1 result -1394.7068627453996
+key 2: 1 result -1394.7068627463027
+key 0: 1, 1: 1 result -1394.706862605138
+key 0: -1, 1: -1 result -1394.706862605791
+key 0: 1, 2: 1 result -1394.7068626710081
+key 0: -1, 2: -1 result -1394.7068626999458
+key 1: 1, 2: 1 result -1394.7068626656142
+key 1: -1, 2: -1 result -1394.7068626737287
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['36.6130' '226.9859']

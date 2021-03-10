@@ -1,0 +1,2280 @@
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.6766018006
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.6766176936  -1394.6765858739      0.0031819680
+        1  -1394.6765153737  -1394.6766879243     -0.0172550617
+        2  -1394.6766401513  -1394.6765634449      0.0076706320
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Internal coordinates to be generated automatically.
+	Detected frag 1 with atoms:  1 2 3
+	---Fragment 1 Bond Connectivity---
+	 1 : 2 3
+	 2 : 1 3
+	 3 : 1 2
+
+	---Fragment 1 Geometry and Gradient---
+	 S          -1.9630975565        1.8884401560        0.0000000000
+	 S          -1.9630975565       -1.8884134839        0.0000000000
+	 K           3.2216798893       -0.0000218861        0.0000000000
+	             0.0134589880       -0.0733708735        0.0000000000
+	             0.0134653180        0.0733729961        0.0000000000
+	            -0.0269243061       -0.0000021226        0.0000000000
+
+	Previous optimization step data not found.  Starting new optimization.
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.776854	       1.998625
+	 R(1,3)           =         5.517989	       2.919994
+	 R(2,3)           =         5.517965	       2.919981
+	 B(1,2,3)         =         1.221511	      69.987443
+	 B(1,3,2)         =         0.698582	      40.025801
+	 B(2,1,3)         =         1.221499	      69.986756
+
+	Current energy   :     -1394.6766018006
+
+	Generating empirical Hessian (Schlegel '84) for each fragment.
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.38005
+	Projected energy change by RFO approximation:        -0.0171324542
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      1.998625     0.538864     0.098232     2.096857
+	    2 R(1,3)          =      2.919994     0.126652     0.124058     3.044052
+	    3 R(2,3)          =      2.919981     0.126695     0.124085     3.044066
+	    4 B(1,2,3)        =     69.987443    -0.000403    -0.134067    69.853376
+	    5 B(1,3,2)        =     40.025801     0.000805     0.266739    40.292540
+	    6 B(2,1,3)        =     69.986756    -0.000403    -0.132672    69.854084
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  --------------------------------------------------------------------------------------------- ~
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp    ~
+  --------------------------------------------------------------------------------------------- ~
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o  ~
+  --------------------------------------------------------------------------------------------- ~
+      1   -1394.67660180   -1.39e+03      6.54e-02      2.86e-02 o    2.34e-01      1.55e-01 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.0768650310   1.0484321857   0.0000000000
+	    S    -1.0768856929  -1.0484250803   0.0000000000
+	    K     1.7809373244  -0.0000045727   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.6954476340
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.6954700410  -1394.6954251842      0.0044856783
+        1  -1394.6953996172  -1394.6954951501     -0.0095532895
+        2  -1394.6954882260  -1394.6954070400      0.0081185997
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.0447501348        1.9812487999        0.0000000000
+	 S          -2.0447891802       -1.9812371725        0.0000000000
+	 K           3.3557136587       -0.0000095410        0.0000000000
+	             0.0189497884       -0.0434285816        0.0000000000
+	             0.0189476951        0.0434273918        0.0000000000
+	            -0.0378974835        0.0000011897        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.962486	       2.096857
+	 R(1,3)           =         5.752425	       3.044052
+	 R(2,3)           =         5.752451	       3.044066
+	 B(1,2,3)         =         1.219171	      69.853376
+	 B(1,3,2)         =         0.703237	      40.292540
+	 B(2,1,3)         =         1.219184	      69.854084
+
+	Current energy   :     -1394.6954476340
+
+	Energy change for the previous step:
+		Projected    :        -0.0171324542
+		Actual       :        -0.0188458334
+	Energy ratio indicates good step: Trust radius increased to 1.000e+00.
+
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 1
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.90510
+	Projected energy change by RFO approximation:        -0.0184097693
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.096857     0.291526     0.178709     2.275566
+	    2 R(1,3)          =      3.044052     0.169395     0.314174     3.358226
+	    3 R(2,3)          =      3.044066     0.169375     0.314158     3.358224
+	    4 B(1,2,3)        =     69.853376    -0.000149     0.342591    70.195967
+	    5 B(1,3,2)        =     40.292540     0.000299    -0.684380    39.608160
+	    6 B(2,1,3)        =     69.854084    -0.000150     0.341789    70.195873
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      2   -1394.69544763   -1.88e-02      3.54e-02      1.88e-02 o    5.94e-01      3.70e-01 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1826392176   1.1377887987   0.0000000000
+	    S    -1.1826487083  -1.1377773304   0.0000000000
+	    K     1.9769641135  -0.0000103642   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.6944331342
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.6944264266  -1394.6944398367     -0.0013410112
+        1  -1394.6944955035  -1394.6943706681      0.0124835372
+        2  -1394.6944123128  -1394.6944539497     -0.0041636957
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2606957859        2.1501099091        0.0000000000
+	 S          -2.2607137210       -2.1500868723        0.0000000000
+	 K           3.7100891984       -0.0000189031        0.0000000000
+	            -0.0056831832        0.0520751144        0.0000000000
+	            -0.0056837691       -0.0520751111        0.0000000000
+	             0.0113669523       -0.0000000033        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         4.300197	       2.275566
+	 R(1,3)           =         6.346127	       3.358226
+	 R(2,3)           =         6.346123	       3.358224
+	 B(1,2,3)         =         1.225151	      70.195967
+	 B(1,3,2)         =         0.691293	      39.608160
+	 B(2,1,3)         =         1.225149	      70.195873
+
+	Current energy   :     -1394.6944331342
+
+	Energy change for the previous step:
+		Projected    :        -0.0184097693
+		Actual       :         0.0010144997
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Change in internal coordinate of 5.94e-01 exceeds limit of 5.00e-01.
+	 Skipping Hessian update for step 2.
+	Steps to be used in Hessian update: 1
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.36457
+	Projected energy change by RFO approximation:        -0.0106891512
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.275566    -0.397031    -0.096418     2.179148
+	    2 R(1,3)          =      3.358226    -0.054897    -0.118141     3.240084
+	    3 R(2,3)          =      3.358224    -0.054898    -0.118125     3.240098
+	    4 B(1,2,3)        =     70.195967     0.000278     0.153372    70.349339
+	    5 B(1,3,2)        =     39.608160    -0.000557    -0.307526    39.300634
+	    6 B(2,1,3)        =     70.195873     0.000278     0.154155    70.350028
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      3   -1394.69443313    1.01e-03      4.82e-02      2.04e-02 o    2.23e-01      1.49e-01 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1602323385   1.0895776264   0.0000000000
+	    S    -1.1602535438  -1.0895701668   0.0000000000
+	    K     1.8911536661  -0.0000052721   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7036267352
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7036258382  -1394.7036248891      0.0000949140
+        1  -1394.7036638153  -1394.7035894486      0.0074366672
+        2  -1394.7036198480  -1394.7036322073     -0.0012359357
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.1832592338        2.0590027070        0.0000000000
+	 S          -2.1832993062       -2.0589898251        0.0000000000
+	 K           3.5830246405       -0.0000105703        0.0000000000
+	             0.0004028162        0.0301110364        0.0000000000
+	             0.0002446000       -0.0301673238        0.0000000000
+	            -0.0006474162        0.0000562874        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         4.117993	       2.179148
+	 R(1,3)           =         6.122872	       3.240084
+	 R(2,3)           =         6.122899	       3.240098
+	 B(1,2,3)         =         1.227828	      70.349339
+	 B(1,3,2)         =         0.685925	      39.300634
+	 B(2,1,3)         =         1.227840	      70.350028
+
+	Current energy   :     -1394.7036267352
+
+	Energy change for the previous step:
+		Projected    :        -0.0106891512
+		Actual       :        -0.0091936010
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 3 2
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.07946
+	Projected energy change by RFO approximation:        -0.0019024754
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.179148    -0.238524    -0.039632     2.139516
+	    2 R(1,3)          =      3.240084    -0.000208     0.007797     3.247881
+	    3 R(2,3)          =      3.240098    -0.001349     0.006901     3.247000
+	    4 B(1,2,3)        =     70.349339     0.000193     0.439635    70.788973
+	    5 B(1,3,2)        =     39.300634    -0.000381    -0.834003    38.466630
+	    6 B(2,1,3)        =     70.350028     0.000188     0.394368    70.744396
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      4   -1394.70362674   -9.19e-03      2.90e-02      1.21e-02 o    7.49e-02      3.24e-02 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1606055806   1.0698845405   0.0000000000
+	    S    -1.1599362257  -1.0696312582   0.0000000000
+	    K     1.9059135245  -0.0002520591   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7054984589
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7055002266  -1394.7054966578      0.0003568804
+        1  -1394.7055207017  -1394.7054759017      0.0044799988
+        2  -1394.7054971453  -1394.7054996878     -0.0002542473
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.1944924284        2.0218204190        0.0000000000
+	 S          -2.1932275311       -2.0212784975        0.0000000000
+	 K           3.6003888616       -0.0004446792        0.0000000000
+	             0.0015203574        0.0178295490        0.0000000000
+	             0.0015947514       -0.0178078684        0.0000000000
+	            -0.0031151089       -0.0000216807        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         4.043099	       2.139516
+	 R(1,3)           =         6.137606	       3.247881
+	 R(2,3)           =         6.135940	       3.247000
+	 B(1,2,3)         =         1.235501	      70.788973
+	 B(1,3,2)         =         0.671369	      38.466630
+	 B(2,1,3)         =         1.234723	      70.744396
+
+	Current energy   :     -1394.7054984589
+
+	Energy change for the previous step:
+		Projected    :        -0.0019024754
+		Actual       :        -0.0018717237
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 4 3
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.17467
+	Projected energy change by RFO approximation:        -0.0009807031
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.139516    -0.144491    -0.080333     2.059183
+	    2 R(1,3)          =      3.247881     0.011121     0.028840     3.276721
+	    3 R(2,3)          =      3.247000     0.011587     0.028774     3.275774
+	    4 B(1,2,3)        =     70.788973     0.000120     0.919931    71.708905
+	    5 B(1,3,2)        =     38.466630    -0.000242    -1.834416    36.632215
+	    6 B(2,1,3)        =     70.744396     0.000122     0.914484    71.658881
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      5   -1394.70549846   -1.87e-03      1.75e-02      7.38e-03 o    1.52e-01      7.13e-02 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1759925501   1.0297494574   0.0000000000
+	    S    -1.1752748889  -1.0294334420   0.0000000000
+	    K     1.9346297663  -0.0002645570   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7060070197
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7060138805  -1394.7060000994      0.0013781067
+        1  -1394.7059785855  -1394.7060347248     -0.0056139225
+        2  -1394.7060216287  -1394.7059922470      0.0029381700
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2260767095        1.9459482146        0.0000000000
+	 S          -2.2247205264       -1.9453435230        0.0000000000
+	 K           3.6521475712       -0.0004961859        0.0000000000
+	             0.0059193673       -0.0240713879        0.0000000000
+	             0.0059242158        0.0240769387        0.0000000000
+	            -0.0118435831       -0.0000055508        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.891292	       2.059183
+	 R(1,3)           =         6.192105	       3.276721
+	 R(2,3)           =         6.190316	       3.275774
+	 B(1,2,3)         =         1.251556	      71.708905
+	 B(1,3,2)         =         0.639353	      36.632215
+	 B(2,1,3)         =         1.250683	      71.658881
+
+	Current energy   :     -1394.7060070197
+
+	Energy change for the previous step:
+		Projected    :        -0.0009807031
+		Actual       :        -0.0005085608
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 5 4
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.15542
+	Projected energy change by RFO approximation:        -0.0024563356
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.059183     0.176003     0.029847     2.089030
+	    2 R(1,3)          =      3.276721     0.053277     0.054161     3.330882
+	    3 R(2,3)          =      3.275774     0.053395     0.054216     3.329990
+	    4 B(1,2,3)        =     71.708905    -0.000112     0.036388    71.745293
+	    5 B(1,3,2)        =     36.632215     0.000224    -0.076308    36.555906
+	    6 B(2,1,3)        =     71.658881    -0.000111     0.039920    71.698801
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      6   -1394.70600702   -5.09e-04      2.14e-02      9.60e-03 o    1.02e-01      6.35e-02 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1953470305   1.0446684391   0.0000000000
+	    S    -1.1946730718  -1.0443616378   0.0000000000
+	    K     1.9673929020  -0.0002493825   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7067642097
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7067627533  -1394.7067656383     -0.0002884953
+        1  -1394.7067727193  -1394.7067553299      0.0017389469
+        2  -1394.7067606700  -1394.7067676808     -0.0007010764
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2633412909        1.9741355563        0.0000000000
+	 S          -2.2620676937       -1.9735591723        0.0000000000
+	 K           3.7133710110       -0.0004729578        0.0000000000
+	            -0.0012395901        0.0073232014        0.0000000000
+	            -0.0012098930       -0.0073146405        0.0000000000
+	             0.0024494831       -0.0000085609        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.947695	       2.089030
+	 R(1,3)           =         6.294455	       3.330882
+	 R(2,3)           =         6.292769	       3.329990
+	 B(1,2,3)         =         1.252192	      71.745293
+	 B(1,3,2)         =         0.638021	      36.555906
+	 B(2,1,3)         =         1.251380	      71.698801
+
+	Current energy   :     -1394.7067642097
+
+	Energy change for the previous step:
+		Projected    :        -0.0024563356
+		Actual       :        -0.0007571900
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 6 5
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.02419
+	Projected energy change by RFO approximation:        -0.0001424264
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.089030    -0.054954    -0.012462     2.076568
+	    2 R(1,3)          =      3.330882    -0.011350    -0.001211     3.329671
+	    3 R(2,3)          =      3.329990    -0.011165    -0.001118     3.328872
+	    4 B(1,2,3)        =     71.745293     0.000037     0.103986    71.849279
+	    5 B(1,3,2)        =     36.555906    -0.000074    -0.212555    36.343352
+	    6 B(2,1,3)        =     71.698801     0.000037     0.108569    71.807369
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      7   -1394.70676421   -7.57e-04      6.67e-03      2.88e-03 o    2.35e-02      9.87e-03 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1979466557   1.0384250826   0.0000000000
+	    S    -1.1973469974  -1.0381432161   0.0000000000
+	    K     1.9655816650  -0.0002271357   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068586717
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068582015  -1394.7068591053     -0.0000903822
+        1  -1394.7068592933  -1394.7068576267      0.0001666617
+        2  -1394.7068578754  -1394.7068593909     -0.0001515506
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2638617613        1.9623360442        0.0000000000
+	 S          -2.2627285714       -1.9618093364        0.0000000000
+	 K           3.7143403784       -0.0004321955        0.0000000000
+	            -0.0003887131        0.0007612512        0.0000000000
+	            -0.0003591685       -0.0007516100        0.0000000000
+	             0.0007478816       -0.0000096412        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924146	       2.076568
+	 R(1,3)           =         6.292167	       3.329671
+	 R(2,3)           =         6.290656	       3.328872
+	 B(1,2,3)         =         1.254006	      71.849279
+	 B(1,3,2)         =         0.634311	      36.343352
+	 B(2,1,3)         =         1.253275	      71.807369
+
+	Current energy   :     -1394.7068586717
+
+	Energy change for the previous step:
+		Projected    :        -0.0001424264
+		Actual       :        -0.0000944621
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 7 6
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.01367
+	Projected energy change by RFO approximation:        -0.0000026739
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076568    -0.005093     0.000638     2.077207
+	    2 R(1,3)          =      3.329671    -0.003385    -0.005139     3.324532
+	    3 R(2,3)          =      3.328872    -0.003180    -0.004993     3.323878
+	    4 B(1,2,3)        =     71.849279     0.000002    -0.038290    71.810989
+	    5 B(1,3,2)        =     36.343352    -0.000005     0.068910    36.412262
+	    6 B(2,1,3)        =     71.807369     0.000003    -0.030621    71.776749
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      8   -1394.70685867   -9.45e-05      6.18e-04      3.43e-04 o    9.71e-03      5.58e-03 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1961134994   1.0387233274   0.0000000000
+	    S    -1.1956297731  -1.0384831409   0.0000000000
+	    K     1.9619191090  -0.0001901727   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068626463
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068625341  -1394.7068627079     -0.0000173809
+        1  -1394.7068627063  -1394.7068621296      0.0000576716
+        2  -1394.7068624351  -1394.7068627443     -0.0000309164
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2598615052        1.9628976692        0.0000000000
+	 S          -2.2589473948       -1.9624536774        0.0000000000
+	 K           3.7079552436       -0.0003643220        0.0000000000
+	            -0.0000747290        0.0002502595        0.0000000000
+	            -0.0000591756       -0.0002451687        0.0000000000
+	             0.0001339046       -0.0000050907        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.925351	       2.077207
+	 R(1,3)           =         6.282454	       3.324532
+	 R(2,3)           =         6.281220	       3.323878
+	 B(1,2,3)         =         1.253338	      71.810989
+	 B(1,3,2)         =         0.635514	      36.412262
+	 B(2,1,3)         =         1.252741	      71.776749
+
+	Current energy   :     -1394.7068626463
+
+	Energy change for the previous step:
+		Projected    :        -0.0000026739
+		Actual       :        -0.0000039746
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 8 7
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00207
+	Projected energy change by RFO approximation:        -0.0000002296
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.077207    -0.001799    -0.000256     2.076950
+	    2 R(1,3)          =      3.324532    -0.000654    -0.000800     3.323731
+	    3 R(2,3)          =      3.323878    -0.000545    -0.000704     3.323174
+	    4 B(1,2,3)        =     71.810989     0.000001    -0.004461    71.806528
+	    5 B(1,3,2)        =     36.412262    -0.000002     0.003884    36.416145
+	    6 B(2,1,3)        =     71.776749     0.000001     0.000578    71.777326
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+      9   -1394.70686265   -3.97e-06      2.18e-04      9.97e-05 o    1.51e-03      8.47e-04 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1955790293   1.0385800624   0.0000000000
+	    S    -1.1951717607  -1.0383702887   0.0000000000
+	    K     1.9616655155  -0.0001676143   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627920
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627623  -1394.7068627654     -0.0000003088
+        1  -1394.7068625292  -1394.7068625846     -0.0000055449
+        2  -1394.7068627518  -1394.7068627190      0.0000032816
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2592527550        1.9626286525        0.0000000000
+	 S          -2.2584831289       -1.9622387025        0.0000000000
+	 K           3.7070747692       -0.0003199775        0.0000000000
+	            -0.0000013275       -0.0000221780        0.0000000000
+	             0.0000098577        0.0000258596        0.0000000000
+	            -0.0000085303       -0.0000036816        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924867	       2.076950
+	 R(1,3)           =         6.280942	       3.323731
+	 R(2,3)           =         6.279889	       3.323174
+	 B(1,2,3)         =         1.253260	      71.806528
+	 B(1,3,2)         =         0.635582	      36.416145
+	 B(2,1,3)         =         1.252751	      71.777326
+
+	Current energy   :     -1394.7068627920
+
+	Energy change for the previous step:
+		Projected    :        -0.0000002296
+		Actual       :        -0.0000001457
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00013
+	Projected energy change by RFO approximation:        -0.0000000040
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076950     0.000180     0.000034     2.076985
+	    2 R(1,3)          =      3.323731    -0.000000    -0.000004     3.323728
+	    3 R(2,3)          =      3.323174     0.000078     0.000054     3.323228
+	    4 B(1,2,3)        =     71.806528    -0.000000    -0.001692    71.804837
+	    5 B(1,3,2)        =     36.416145     0.000000     0.000338    36.416483
+	    6 B(2,1,3)        =     71.777326     0.000000     0.001354    71.778680
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     10   -1394.70686279   -1.46e-07 *    2.18e-05      9.94e-06 o    1.03e-04 *    5.21e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1955289753   1.0385879734   0.0000000000
+	    S    -1.1951678760  -1.0383968087   0.0000000000
+	    K     1.9617134655  -0.0001541369   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627986
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627583  -1394.7068627720     -0.0000013768
+        1  -1394.7068625648  -1394.7068625619      0.0000002906
+        2  -1394.7068627406  -1394.7068627307      0.0000009885
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2592241431        1.9626448847        0.0000000000
+	 S          -2.2585417643       -1.9622875355        0.0000000000
+	 K           3.7070994052       -0.0002932265        0.0000000000
+	            -0.0000059196        0.0000024878        0.0000000000
+	             0.0000061703        0.0000014890        0.0000000000
+	            -0.0000002507       -0.0000039768        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924932	       2.076985
+	 R(1,3)           =         6.280935	       3.323728
+	 R(2,3)           =         6.279992	       3.323228
+	 B(1,2,3)         =         1.253231	      71.804837
+	 B(1,3,2)         =         0.635588	      36.416483
+	 B(2,1,3)         =         1.252774	      71.778680
+
+	Current energy   :     -1394.7068627986
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000040
+		Actual       :        -0.0000000066
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00010
+	Projected energy change by RFO approximation:        -0.0000000011
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076985    -0.000004    -0.000004     2.076981
+	    2 R(1,3)          =      3.323728    -0.000041    -0.000030     3.323698
+	    3 R(2,3)          =      3.323228     0.000043     0.000037     3.323266
+	    4 B(1,2,3)        =     71.804837    -0.000000    -0.001698    71.803138
+	    5 B(1,3,2)        =     36.416483    -0.000000    -0.000112    36.416372
+	    6 B(2,1,3)        =     71.778680     0.000000     0.001810    71.780490
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     11   -1394.70686280   -6.64e-09 *    5.28e-06      3.31e-06 o    7.02e-05 *    4.09e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1955048310   1.0385762657   0.0000000000
+	    S    -1.1951969211  -1.0384046605   0.0000000000
+	    K     1.9617155154  -0.0001376730   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627830
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627619  -1394.7068627711     -0.0000009206
+        1  -1394.7068625789  -1394.7068625654      0.0000013450
+        2  -1394.7068627417  -1394.7068627354      0.0000006393
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2591771065        1.9626224640        0.0000000000
+	 S          -2.2585952409       -1.9623026696        0.0000000000
+	 K           3.7071046896       -0.0002624106        0.0000000000
+	            -0.0000039579        0.0000063269        0.0000000000
+	             0.0000047997       -0.0000034467        0.0000000000
+	            -0.0000008418       -0.0000028802        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924925	       2.076981
+	 R(1,3)           =         6.280879	       3.323698
+	 R(2,3)           =         6.280062	       3.323266
+	 B(1,2,3)         =         1.253201	      71.803138
+	 B(1,3,2)         =         0.635586	      36.416372
+	 B(2,1,3)         =         1.252806	      71.780490
+
+	Current energy   :     -1394.7068627830
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000011
+		Actual       :         0.0000000156
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00010
+	Projected energy change by RFO approximation:        -0.0000000015
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076981    -0.000040    -0.000018     2.076963
+	    2 R(1,3)          =      3.323698    -0.000028    -0.000004     3.323694
+	    3 R(2,3)          =      3.323266     0.000034     0.000048     3.323314
+	    4 B(1,2,3)        =     71.803138    -0.000000    -0.001078    71.802061
+	    5 B(1,3,2)        =     36.416372    -0.000000    -0.000585    36.415787
+	    6 B(2,1,3)        =     71.780490     0.000000     0.001662    71.782152
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     12   -1394.70686278    1.56e-08 *    4.81e-06      3.13e-06 o    9.15e-05 *    4.27e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954930849   1.0385591048   0.0000000000
+	    S    -1.1952267252  -1.0384035424   0.0000000000
+	    K     1.9617329619  -0.0001251962   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068628015
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627657  -1394.7068627720     -0.0000006336
+        1  -1394.7068625595  -1394.7068625747     -0.0000015189
+        2  -1394.7068627620  -1394.7068627359      0.0000026077
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2591567902        1.9625905264        0.0000000000
+	 S          -2.2586534435       -1.9623000650        0.0000000000
+	 K           3.7071357776       -0.0002383411        0.0000000000
+	            -0.0000027240       -0.0000055530        0.0000000000
+	             0.0000103176        0.0000098430        0.0000000000
+	            -0.0000075936       -0.0000042900        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924891	       2.076963
+	 R(1,3)           =         6.280871	       3.323694
+	 R(2,3)           =         6.280153	       3.323314
+	 B(1,2,3)         =         1.253182	      71.802061
+	 B(1,3,2)         =         0.635575	      36.415787
+	 B(2,1,3)         =         1.252835	      71.782152
+
+	Current energy   :     -1394.7068628015
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000015
+		Actual       :        -0.0000000185
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00020
+	Projected energy change by RFO approximation:        -0.0000000053
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076963     0.000052    -0.000010     2.076953
+	    2 R(1,3)          =      3.323694    -0.000012     0.000023     3.323717
+	    3 R(2,3)          =      3.323314     0.000079     0.000097     3.323411
+	    4 B(1,2,3)        =     71.802061    -0.000000    -0.001497    71.800564
+	    5 B(1,3,2)        =     36.415787     0.000000    -0.000859    36.414928
+	    6 B(2,1,3)        =     71.782152     0.000000     0.002356    71.784508
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     13   -1394.70686280   -1.85e-08 *    9.61e-06      4.99e-06 o    1.83e-04 *    7.98e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954866401   1.0385436243   0.0000000000
+	    S    -1.1952787050  -1.0384091334   0.0000000000
+	    K     1.9617748993  -0.0001069099   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627838
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627650  -1394.7068627773     -0.0000012389
+        1  -1394.7068625555  -1394.7068625826     -0.0000027148
+        2  -1394.7068627350  -1394.7068627477     -0.0000012728
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2591478836        1.9625605600        0.0000000000
+	 S          -2.2587549432       -1.9623113431        0.0000000000
+	 K           3.7072117558       -0.0002044975        0.0000000000
+	            -0.0000053265       -0.0000098239        0.0000000000
+	            -0.0000050223        0.0000099252        0.0000000000
+	             0.0000103488       -0.0000001013        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924872	       2.076953
+	 R(1,3)           =         6.280915	       3.323717
+	 R(2,3)           =         6.280336	       3.323411
+	 B(1,2,3)         =         1.253156	      71.800564
+	 B(1,3,2)         =         0.635560	      36.414928
+	 B(2,1,3)         =         1.252876	      71.784508
+
+	Current energy   :     -1394.7068627838
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000053
+		Actual       :         0.0000000177
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00038
+	Projected energy change by RFO approximation:        -0.0000000006
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076953     0.000090     0.000058     2.077011
+	    2 R(1,3)          =      3.323717    -0.000044    -0.000128     3.323589
+	    3 R(2,3)          =      3.323411    -0.000042    -0.000142     3.323269
+	    4 B(1,2,3)        =     71.800564    -0.000000    -0.000939    71.799625
+	    5 B(1,3,2)        =     36.414928     0.000000     0.002590    36.417518
+	    6 B(2,1,3)        =     71.784508    -0.000000    -0.001651    71.782857
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     14   -1394.70686278    1.77e-08 *    1.10e-05      5.54e-06 o    2.68e-04 *    1.56e-04 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954444654   1.0385733157   0.0000000000
+	    S    -1.1952257317  -1.0384378914   0.0000000000
+	    K     1.9616709592  -0.0001117598   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627828
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627737  -1394.7068627742     -0.0000000462
+        1  -1394.7068625684  -1394.7068625656      0.0000002764
+        2  -1394.7068627437  -1394.7068627356      0.0000008011
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590496780        1.9626195907        0.0000000000
+	 S          -2.2586363314       -1.9623627657        0.0000000000
+	 K           3.7070338442       -0.0002107404        0.0000000000
+	            -0.0000001988        0.0000011641        0.0000000000
+	             0.0000034402        0.0000000327        0.0000000000
+	            -0.0000032413       -0.0000011968        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924982	       2.077011
+	 R(1,3)           =         6.280673	       3.323589
+	 R(2,3)           =         6.280069	       3.323269
+	 B(1,2,3)         =         1.253140	      71.799625
+	 B(1,3,2)         =         0.635606	      36.417518
+	 B(2,1,3)         =         1.252847	      71.782857
+
+	Current energy   :     -1394.7068627828
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000006
+		Actual       :         0.0000000010
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00011
+	Projected energy change by RFO approximation:        -0.0000000008
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.077011    -0.000008    -0.000014     2.076997
+	    2 R(1,3)          =      3.323589     0.000001     0.000023     3.323613
+	    3 R(2,3)          =      3.323269     0.000027     0.000049     3.323318
+	    4 B(1,2,3)        =     71.799625    -0.000000    -0.000341    71.799284
+	    5 B(1,3,2)        =     36.417518    -0.000000    -0.000664    36.416854
+	    6 B(2,1,3)        =     71.782857     0.000000     0.001005    71.783862
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     15   -1394.70686278    1.02e-09 *    3.23e-06      1.46e-06 o    9.28e-05 *    4.42e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954408810   1.0385632443   0.0000000000
+	    S    -1.1952425532  -1.0384340489   0.0000000000
+	    K     1.9617047842  -0.0001048084   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627843
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627642  -1394.7068627706     -0.0000006379
+        1  -1394.7068625669  -1394.7068625536      0.0000013295
+        2  -1394.7068627591  -1394.7068627505      0.0000008604
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590593348        1.9625992418        0.0000000000
+	 S          -2.2586845497       -1.9623568210        0.0000000000
+	 K           3.7070813341       -0.0001989209        0.0000000000
+	            -0.0000027426        0.0000059953        0.0000000000
+	             0.0000052501       -0.0000033665        0.0000000000
+	            -0.0000025075       -0.0000026288        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924956	       2.076997
+	 R(1,3)           =         6.280717	       3.323613
+	 R(2,3)           =         6.280161	       3.323318
+	 B(1,2,3)         =         1.253134	      71.799284
+	 B(1,3,2)         =         0.635594	      36.416854
+	 B(2,1,3)         =         1.252865	      71.783862
+
+	Current energy   :     -1394.7068627843
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000008
+		Actual       :        -0.0000000014
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 15.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00015
+	Projected energy change by RFO approximation:        -0.0000000027
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076997    -0.000040    -0.000026     2.076971
+	    2 R(1,3)          =      3.323613    -0.000018     0.000011     3.323623
+	    3 R(2,3)          =      3.323318     0.000038     0.000072     3.323390
+	    4 B(1,2,3)        =     71.799284    -0.000000    -0.001126    71.798158
+	    5 B(1,3,2)        =     36.416854    -0.000000    -0.000943    36.415911
+	    6 B(2,1,3)        =     71.783862     0.000000     0.002070    71.785931
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     16   -1394.70686278   -1.44e-09 *    4.86e-06      3.07e-06 o    1.36e-04 *    6.22e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954343789   1.0385417068   0.0000000000
+	    S    -1.1952845210  -1.0384293646   0.0000000000
+	    K     1.9617347544  -0.0000893230   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627849
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627711  -1394.7068627785     -0.0000007472
+        1  -1394.7068625579  -1394.7068625711     -0.0000013202
+        2  -1394.7068627400  -1394.7068627342      0.0000005825
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590476691        1.9625573567        0.0000000000
+	 S          -2.2587644785       -1.9623491543        0.0000000000
+	 K           3.7071373481       -0.0001708426        0.0000000000
+	            -0.0000032126       -0.0000046397        0.0000000000
+	             0.0000025552        0.0000065372        0.0000000000
+	             0.0000006574       -0.0000018976        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924907	       2.076971
+	 R(1,3)           =         6.280738	       3.323623
+	 R(2,3)           =         6.280297	       3.323390
+	 B(1,2,3)         =         1.253114	      71.798158
+	 B(1,3,2)         =         0.635578	      36.415911
+	 B(2,1,3)         =         1.252901	      71.785931
+
+	Current energy   :     -1394.7068627849
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000027
+		Actual       :        -0.0000000006
+	Energy ratio indicates iffy step: Trust radius decreased to 2.500e-01.
+
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 16.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 15.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00007
+	Projected energy change by RFO approximation:         0.0000000002
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076971     0.000045     0.000012     2.076983
+	    2 R(1,3)          =      3.323623    -0.000023    -0.000034     3.323589
+	    3 R(2,3)          =      3.323390     0.000018    -0.000005     3.323385
+	    4 B(1,2,3)        =     71.798158    -0.000000    -0.000980    71.797177
+	    5 B(1,3,2)        =     36.415911     0.000000     0.000428    36.416339
+	    6 B(2,1,3)        =     71.785931     0.000000     0.000552    71.786483
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     17   -1394.70686278   -6.48e-10 *    5.46e-06      2.78e-06 o    6.38e-05 *    2.91e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954175631   1.0385426111   0.0000000000
+	    S    -1.1952909373  -1.0384400780   0.0000000000
+	    K     1.9617178729  -0.0000827631   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627847
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627727  -1394.7068627708      0.0000001929
+        1  -1394.7068625614  -1394.7068625595      0.0000001885
+        2  -1394.7068627399  -1394.7068627400     -0.0000000063
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590099186        1.9625601310        0.0000000000
+	 S          -2.2587706305       -1.9623683342        0.0000000000
+	 K           3.7071114196       -0.0001573809        0.0000000000
+	             0.0000008292        0.0000005805        0.0000000000
+	            -0.0000001869       -0.0000009148        0.0000000000
+	            -0.0000006423        0.0000003343        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924928	       2.076983
+	 R(1,3)           =         6.280674	       3.323589
+	 R(2,3)           =         6.280288	       3.323385
+	 B(1,2,3)         =         1.253097	      71.797177
+	 B(1,3,2)         =         0.635585	      36.416339
+	 B(2,1,3)         =         1.252910	      71.786483
+
+	Current energy   :     -1394.7068627847
+
+	Energy change for the previous step:
+		Projected    :         0.0000000002
+		Actual       :         0.0000000002
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 17.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 16.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 15.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00002
+	Projected energy change by RFO approximation:         0.0000000000
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076983    -0.000007    -0.000003     2.076980
+	    2 R(1,3)          =      3.323589     0.000006     0.000011     3.323600
+	    3 R(2,3)          =      3.323385    -0.000001     0.000006     3.323391
+	    4 B(1,2,3)        =     71.797177     0.000000     0.000202    71.797380
+	    5 B(1,3,2)        =     36.416339    -0.000000    -0.000148    36.416192
+	    6 B(2,1,3)        =     71.786483    -0.000000    -0.000055    71.786429
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     18   -1394.70686278    1.93e-10 *    8.11e-07      4.79e-07 o    2.01e-05 *    9.76e-06 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954215422   1.0385412129   0.0000000000
+	    S    -1.1952910183  -1.0384384357   0.0000000000
+	    K     1.9617249334  -0.0000845650   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627849
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627742  -1394.7068627710      0.0000003183
+        1  -1394.7068625613  -1394.7068625606      0.0000000710
+        2  -1394.7068627394  -1394.7068627407     -0.0000001282
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590201063        1.9625586347        0.0000000000
+	 S          -2.2587734517       -1.9623640848        0.0000000000
+	 K           3.7071220942       -0.0001596399        0.0000000000
+	             0.0000013687       -0.0000000150        0.0000000000
+	            -0.0000009357       -0.0000007431        0.0000000000
+	            -0.0000004330        0.0000007581        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924923	       2.076980
+	 R(1,3)           =         6.280694	       3.323600
+	 R(2,3)           =         6.280299	       3.323391
+	 B(1,2,3)         =         1.253101	      71.797380
+	 B(1,3,2)         =         0.635582	      36.416192
+	 B(2,1,3)         =         1.252910	      71.786429
+
+	Current energy   :     -1394.7068627849
+
+	Energy change for the previous step:
+		Projected    :         0.0000000000
+		Actual       :        -0.0000000002
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 18.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 17.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 16.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 15.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00003
+	Projected energy change by RFO approximation:        -0.0000000000
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076980    -0.000003    -0.000000     2.076980
+	    2 R(1,3)          =      3.323600     0.000010     0.000012     3.323612
+	    3 R(2,3)          =      3.323391    -0.000006    -0.000003     3.323388
+	    4 B(1,2,3)        =     71.797380     0.000000     0.000419    71.797799
+	    5 B(1,3,2)        =     36.416192    -0.000000    -0.000047    36.416144
+	    6 B(2,1,3)        =     71.786429    -0.000000    -0.000372    71.786057
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     19   -1394.70686278   -1.55e-10 *    1.20e-06      6.66e-07 o    2.21e-05 *    1.02e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1954294175   1.0385432700   0.0000000000
+	    S    -1.1952868921  -1.0384363707   0.0000000000
+	    K     1.9617274473  -0.0000884257   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Using finite-differences of energies to determine gradients.
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of symmetric SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Number of geometries (including reference) is 7.
+
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
+
+  Computing gradient from energies.
+    Using 3-point formula.
+    Energy without displacement: -1394.7068627913
+    Check energies below for precision!
+    Forces are for mass-weighted, symmetry-adapted cartesians (in au).
+
+     Coord      Energy(-1)        Energy(+1)            Force
+        0  -1394.7068627733  -1394.7068627896     -0.0000016217
+        1  -1394.7068625807  -1394.7068625771      0.0000003584
+        2  -1394.7068627389  -1394.7068627445     -0.0000005600
+
+
+-------------------------------------------------------------
+
+			-----------------------------------------
+			 OPTKING 2.0: for geometry optimizations 
+			  - R.A. King,  Bethel University        
+			-----------------------------------------
+
+	Previous internal coordinate definitions found.
+	---Fragment 1 Geometry and Gradient---
+	 S          -2.2590345857        1.9625628643        0.0000000000
+	 S          -2.2587652520       -1.9623598403        0.0000000000
+	 K           3.7071272471       -0.0001665934        0.0000000000
+	            -0.0000069726        0.0000029953        0.0000000000
+	             0.0000004140       -0.0000005653        0.0000000000
+	             0.0000065587       -0.0000024300        0.0000000000
+
+	---Fragment 1 Intrafragment Coordinates---
+	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
+	 R(1,2)           =         3.924923	       2.076980
+	 R(1,3)           =         6.280716	       3.323612
+	 R(2,3)           =         6.280293	       3.323388
+	 B(1,2,3)         =         1.253108	      71.797799
+	 B(1,3,2)         =         0.635582	      36.416144
+	 B(2,1,3)         =         1.252903	      71.786057
+
+	Current energy   :     -1394.7068627913
+
+	Energy change for the previous step:
+		Projected    :        -0.0000000000
+		Actual       :        -0.0000000064
+	Energy ratio indicates good step: Trust radius increased to 7.500e-01.
+
+
+	Performing BFGS update.
+	Previous computed or guess Hessian on step 1.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 19.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 18.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 17.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 16.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 15.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 14.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 13.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 12.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 11.
+	Denominators (dg)(dq) or (dq)(dq) are very small.
+	 Skipping Hessian update for step 10.
+	Steps to be used in Hessian update: 9 8
+	Taking RFO optimization step.
+	Going to follow RFO solution 1.
+	Using RFO vector 1.
+	Norm of target step-size    0.00018
+	Projected energy change by RFO approximation:         0.0000000017
+
+	Back-transformation to cartesian coordinates...
+	Successfully converged to displaced geometry.
+
+	--- Internal Coordinate Step in ANG or DEG, aJ/ANG or AJ/DEG ---
+	 ---------------------------------------------------------------------------
+	   Coordinate                Previous        Force       Change         New 
+	   ----------                --------       ------       ------       ------
+	    1 R(1,2)          =      2.076980    -0.000006     0.000008     2.076988
+	    2 R(1,3)          =      3.323612    -0.000054    -0.000084     3.323528
+	    3 R(2,3)          =      3.323388    -0.000002    -0.000036     3.323352
+	    4 B(1,2,3)        =     71.797799    -0.000000    -0.001666    71.796134
+	    5 B(1,3,2)        =     36.416144     0.000000     0.000830    36.416974
+	    6 B(2,1,3)        =     71.786057     0.000000     0.000836    71.786893
+	 ---------------------------------------------------------------------------
+	Successfully symmetrized geometry.
+
+  ==> Convergence Check <==
+
+  Measures of convergence in internal coordinates in au.
+  Criteria marked as inactive (o), active & met (*), and active & unmet ( ).
+  ---------------------------------------------------------------------------------------------
+   Step     Total Energy     Delta E     MAX Force     RMS Force      MAX Disp      RMS Disp   
+  ---------------------------------------------------------------------------------------------
+    Convergence Criteria    1.00e-06 *    1.00e-07 *             o    1.20e-03 *             o
+  ---------------------------------------------------------------------------------------------
+     20   -1394.70686279   -6.42e-09 *    6.58e-06      2.85e-06 o    1.58e-04 *    7.19e-05 o  ~
+  ---------------------------------------------------------------------------------------------
+
+	Writing optimization data to binary file.
+	Structure for next step:
+	Cartesian Geometry (in Angstrom)
+	    S    -1.1953892429   1.0385415049   0.0000000000
+	    S    -1.1952846473  -1.0384465479   0.0000000000
+	    K     1.9616844317  -0.0000756787   0.0000000000
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
