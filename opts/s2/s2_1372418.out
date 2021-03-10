@@ -1,0 +1,19 @@
+Performing finite difference calculations
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed ... 1Optimizer: Optimization complete!
+ 3 displacements needed.
+ 1 2 2 3
+ 3
+ 3 displacements needed ... 1Warning: used thermodynamics relations inappropriate for low-frequency modes: ['316.7792']
+ 2 3
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed ... 1 2 3
+Optimizer: Optimization complete!
+Performing finite difference calculations
+ 3 displacements needed ... 1 2 3
+ 3 displacements needed.
+ 1 2 3
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['316.7533']
