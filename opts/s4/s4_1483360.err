@@ -1,0 +1,10 @@
+import: unable to open X server `' @ error/import.c/ImportImageCommand/344.
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: syntax error near unexpected token `sys.argv'
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: `if len(sys.argv) > 1 and sys.argv[1].startswith('shell.') and sys.path and sys.path[0] == '':'
+/var/lib/slurmd/job1483360/slurm_script: line 27: 37195 Killed                  psi4 input.dat  (wd: /scratch/smg13363/workDir/2_sulfides/opts/s4/s4_0_s/wb97m_v)
+/var/lib/slurmd/job1483360/slurm_script: line 27: 37199 Killed                  psi4 input.dat  (wd: /scratch/smg13363/workDir/2_sulfides/opts/s4/s4_2m_s/wb97m_v)
+/var/lib/slurmd/job1483360/slurm_script: line 27: 37203 Killed                  psi4 input.dat  (wd: /scratch/smg13363/workDir/2_sulfides/opts/s4/s4_m/wb97m_v)
+New linear angles
+New linear angles
+slurmstepd: error: *** JOB 1483360 ON b1-8 CANCELLED AT 2021-02-05T11:31:57 ***
+slurmstepd: error: Detected 3 oom-kill event(s) in step 1483360.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
