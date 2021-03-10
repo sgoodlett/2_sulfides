@@ -1,0 +1,114 @@
+Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1 2 2 3 3 4 5 4 6 5 7
+ 7 displacements needed ... 1 6 2 3 7
+ 4Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 36, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 707, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2172, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 500 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+    core.set_global_option("MAXITER", 500)
+--> optimize('wb97x-d')
+    frequencies('wb97x-d')
+
+ 5 6 7 displacements needed ... 1 7
+ 7 displacements needed ... 1 2 3 4 5Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 36, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 707, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2172, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 500 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+    core.set_global_option("MAXITER", 500)
+--> optimize('wb97x-d')
+    frequencies('wb97x-d')
+
+ 6 7
+ 7 displacements needed ... 1 2 3 4 5 6 7
+ 7 displacements needed ... 1 2 3 4 5 6 7
+ 7 displacements needed ... 1 2 3 4 5 6 7
+ 7 displacements needed ... 1 2 3 4 5 6 7
+Optimizer: Optimization complete!
+Performing finite difference calculations
+ 7 displacements needed ... 1 2 3 4 5 6 7
+ 13 displacements needed.
+ 1 2Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 36, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 726, in gradient
+    **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 188, in _process_displacement
+    derivative, wfn = derivfunc(method, return_wfn=True, molecule=clone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 568, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 500 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+    core.set_global_option("MAXITER", 500)
+--> optimize('wb97m-v')
+    frequencies('wb97m-v')
+
+ 3 4 5 6 7 8 9 10 11 12 13
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['225.9968' '558.3947' '599.1038']

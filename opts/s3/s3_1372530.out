@@ -1,0 +1,182 @@
+Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1Performing finite difference calculations
+ 7 displacements needed ... 1 2 2 2 2 2 3 3Optimizer: Optimization complete!
+ 7 displacements needed.
+ 1 3Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 35, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 707, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2172, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 100 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("REFERENCE", "uks")
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+--> optimize('wb97x-d')
+    frequencies('wb97x-d')
+
+Optimizer: Optimization complete!
+ 7 displacements needed.
+ 1 4 3 2Optimizer: Optimization complete!
+ 7 displacements needed.
+ 1 2 4 3 2 3 3 3 4 4 4 5 4 5 5 4 5 5 6 6 6 4 7
+Optimizer: Optimization complete!
+ 7 displacements needed.
+ 1 6 7
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['271.7045']
+ 7
+ 6 5Warning: used thermodynamics relations inappropriate for low-frequency modes: ['192.2603' '455.7847' '472.0065']
+ 2Warning: used thermodynamics relations inappropriate for low-frequency modes: ['233.0285' '547.1608' '584.4848']
+ 5 7
+ 3 7
+ 5 6 4 7 displacements needed ... 1Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 35, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 707, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2172, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 100 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("REFERENCE", "uks")
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+--> optimize('wb97x-d')
+    frequencies('wb97x-d')
+
+ 5 6 7 displacements needed ... 1 2 6 7
+ 6 7
+ 3 2Warning: used thermodynamics relations inappropriate for low-frequency modes: ['180.1301' '465.3720' '501.8225']
+ 7
+ 4 3 7 displacements needed ... 1 5 4 7
+ 6 5 7 displacements needed ... 1 7
+ 6 2 7 displacements needed ... 1 7
+ 7 displacements needed ... 1 7 displacements needed ... 1 3 2 2 3 2 4 3 4 3 5 5 4 4 6 5 6 7
+ 5 6 7 displacements needed ... 1 7
+ 7
+ 6 7 displacements needed ... 1 2 7 displacements needed ... 1 7
+ 3 2 4 3 7 displacements needed ... 1 5 4 2Traceback (most recent call last):
+  File "/apps/gb/PSI4/1.4.0/bin/psi4", line 331, in <module>
+    exec(content)
+  File "<string>", line 35, in <module>
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 1071, in optimize
+    G, wfn = gradient(lowername, return_wfn=True, molecule=moleculeclone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 726, in gradient
+    **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 188, in _process_displacement
+    derivative, wfn = derivfunc(method, return_wfn=True, molecule=clone, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/driver.py", line 568, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 2077, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/proc.py", line 1395, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 93, in scf_compute_energy
+    raise e
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+  File "/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 460, in scf_iterate
+    raise SCFConvergenceError("""SCF iterations""", self.iteration_, self, Ediff, Dnorm)
+
+psi4.driver.p4util.exceptions.SCFConvergenceError: Could not converge SCF iterations in 100 iterations.
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("REFERENCE", "uks")
+    core.set_global_option("BASIS", "aug-cc-pvtz")
+    core.set_global_option("G_CONVERGENCE", "gau_verytight")
+    core.set_global_option("DFT_SPHERICAL_POINTS", 590)
+    core.set_global_option("DFT_RADIAL_POINTS", 99)
+--> optimize('wb97m-v')
+    frequencies('wb97m-v')
+
+ 6 5 2 7
+ 6 3 7 displacements needed ... 1 7
+ 3 2 7 displacements needed ... 1 4 3 4 2 4 3 5 5 5 4 6 5 6 6 7
+ 6 7 displacements needed ... 1 7
+ 7
+ 7
+ 2 7 displacements needed ... 1 7 displacements needed ... 1 7 displacements needed ... 1 3 2 4 3 2 5 4 2 6 3 5 7
+ 3 6 4 7 displacements needed ... 1 7
+ 2 4 7 displacements needed ... 1 5 3 2 4 5 3 6 5 4 7
+ 6 6 5 7 displacements needed ... 1 7
+ 7
+ 6 7 displacements needed ... 1 7
+ 2 7 displacements needed ... 1 2 7 displacements needed ... 1 3 2 4 3 3 2 5 4 4 6 5 3 7
+ 5 6 7 displacements needed ... 1 2 4 7
+ 6Optimizer: Optimization complete!
+Performing finite difference calculations
+ 7 displacements needed ... 1 3 5 7
+ 4 2 5 7 displacements needed ... 1 6 6 3 7
+ 7
+ 2 7 displacements needed ... 1Optimizer: Optimization complete!
+Performing finite difference calculations
+ 7 displacements needed ... 1 4 3 2 5 2 4 6 3 3 5 7
+ 4 4 6 13 displacements needed.
+ 1 5 7
+ 5 7 displacements needed ... 1 6 2 6 7
+ 2 7
+ 7 displacements needed ... 1 3 3 13 displacements needed.
+ 1 2 4 4 2 3 5 5 4 3 6 6 7
+ 5 4 7 displacements needed ... 1 7 6 7
+ 2 5 8 7 displacements needed ... 1 3 2 6 9 4 3 7 5 10 4 6 8 11 7
+ 5 7 displacements needed ... 1 9 12 6 2 7
+ 10 7 displacements needed ... 1 13
+ 3 2 11 4Warning: used thermodynamics relations inappropriate for low-frequency modes: ['262.6973']
+ 3 5 12 4 6 5 13
+ 7
+ 7 displacements needed ... 1 6 2Warning: used thermodynamics relations inappropriate for low-frequency modes: ['190.2028' '458.6549' '480.5060']
+ 7
+ 7 displacements needed ... 1 3 2 4 3 5 4 6 7
+ 5Optimizer: Optimization complete!
+Performing finite difference calculations
+ 7 displacements needed ... 1 6 7
+ 2Optimizer: Optimization complete!
+Performing finite difference calculations
+ 7 displacements needed ... 1 2 3 4 3 5 4 5 6 6 7
+ 7
+ 13 displacements needed.
+ 1 13 displacements needed.
+ 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13
+ 13
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['204.0657' '535.5701']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['127.3760' '434.1793' '450.0996']

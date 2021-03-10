@@ -1,0 +1,100 @@
+
+Host: c2-18.compute.lan
+
+Timers On : Tue Feb  2 14:39:45 2021
+Timers Off: Tue Feb  2 22:21:15 2021
+
+Wall Time:    27690.00 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :     19.700u      0.717s     12.366w     90 calls
+JK: (A|mn)                          :    184.533u      0.083s    112.925w     90 calls
+JK: (A|Q)^-1/2                      :     25.217u      0.117s     15.238w     90 calls
+JK: (Q|mn)                          :     91.217u      0.050s     55.527w     90 calls
+JK: (A|mn)^L                        :     97.200u      0.100s     59.200w     90 calls
+JK: (A|Q)^-1                        :     24.983u      0.050s     15.145w     90 calls
+JK: (Q|mn)^L                        :     90.333u      0.000s     55.078w     90 calls
+JK: (A|mn)^R                        :    121.783u      0.117s     73.745w     90 calls
+HF: Form core H                     :      0.200u      0.250s      0.558w     90 calls
+HF: Form S/X                        :      0.400u      0.067s      0.341w     90 calls
+HF: Guess                           :      7.667u      0.283s      5.307w     90 calls
+SAD Guess                           :      7.200u      0.283s      4.976w     27 calls
+HF: Form G                          :  43907.583u    247.883s  26993.185w   1440 calls
+UV: Form V                          :  41649.650u    242.950s  25614.159w   1440 calls
+Properties                          :  17504.867u    149.967s  10800.590w 1999539 calls
+Functional                          :    509.467u      3.683s    314.919w 1999539 calls
+V_xc                                :  18524.633u     70.750s  11379.452w 1999539 calls
+V: VV10                             :   5046.550u     13.833s   3080.710w   1440 calls
+Setup                               :    526.317u      7.733s    324.409w   1440 calls
+Kernel                              :   3531.600u      2.550s   2152.422w 323119 calls
+VV10 Fock                           :    453.483u      1.483s    276.261w 323119 calls
+JK: D                               :      0.400u      0.017s      0.269w   1440 calls
+JK: USO2AO                          :      8.167u      0.350s      5.285w   1440 calls
+JK: JK                              :   2214.217u      4.400s   1351.724w   1440 calls
+JK: J                               :     21.750u      0.417s     13.366w   1440 calls
+JK: J1                              :     10.383u      0.350s      6.622w   2880 calls
+JK: J2                              :     10.783u      0.050s      6.405w   2880 calls
+JK: K                               :    834.150u      0.767s    509.537w   1440 calls
+JK: K1                              :    506.983u      0.583s    309.478w   2880 calls
+JK: K2                              :    327.017u      0.183s    199.992w   2880 calls
+JK: wK                              :   1351.433u      1.467s    823.581w   2880 calls
+JK: wK1                             :   1019.533u      1.283s    621.360w  11520 calls
+JK: wK2                             :    331.533u      0.167s    202.093w   5760 calls
+JK: AO2USO                          :     24.333u      0.050s     14.944w   1440 calls
+HF: Form F                          :      0.200u      0.000s      0.124w   1440 calls
+HF: Form D                          :      0.583u      0.000s      0.316w   1440 calls
+HF: DIIS                            :     11.317u      2.183s      8.358w   1413 calls
+DIISManager::add_entry              :      0.517u      0.383s      0.647w   1350 calls
+DIISManager::extrapolate            :      1.133u      1.417s      1.570w   1350 calls
+bMatrix setup                       :      0.317u      0.717s      0.739w   1350 calls
+bMatrix pseudoinverse               :      0.150u      0.200s      0.123w   1350 calls
+New vector                          :      0.633u      0.500s      0.695w   1350 calls
+HF: Form C                          :     18.850u      0.350s     11.392w   1413 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :     19.700u      0.717s     12.366w     90 calls
+JK: (A|mn)                          :    184.533u      0.083s    112.925w     90 calls
+JK: (A|Q)^-1/2                      :     25.217u      0.117s     15.238w     90 calls
+JK: (Q|mn)                          :     91.217u      0.050s     55.527w     90 calls
+JK: (A|mn)^L                        :     97.200u      0.100s     59.200w     90 calls
+JK: (A|Q)^-1                        :     24.983u      0.050s     15.145w     90 calls
+JK: (Q|mn)^L                        :     90.333u      0.000s     55.078w     90 calls
+JK: (A|mn)^R                        :    121.783u      0.117s     73.745w     90 calls
+HF: Form core H                     :      0.200u      0.250s      0.558w     90 calls
+HF: Form S/X                        :      0.400u      0.067s      0.341w     90 calls
+HF: Guess                           :      7.667u      0.283s      5.307w     90 calls
+| SAD Guess                         :      7.200u      0.283s      4.976w     27 calls
+HF: Form G                          :  43907.583u    247.883s  26993.185w   1440 calls
+| UV: Form V                        :  41649.650u    242.950s  25614.159w   1440 calls
+| | Properties                      :  17504.867u    149.967s  10800.590w 1999539 calls
+| | Functional                      :    509.467u      3.683s    314.919w 1999539 calls
+| | V_xc                            :  18524.633u     70.750s  11379.452w 1999539 calls
+| | V: VV10                         :   5046.550u     13.833s   3080.710w   1440 calls
+| | | Setup                         :    526.317u      7.733s    324.409w   1440 calls
+| | | Kernel                        :   3531.600u      2.550s   2152.422w 323119 calls
+| | | VV10 Fock                     :    453.483u      1.483s    276.261w 323119 calls
+| JK: D                             :      0.400u      0.017s      0.269w   1440 calls
+| JK: USO2AO                        :      8.167u      0.350s      5.285w   1440 calls
+| JK: JK                            :   2214.217u      4.400s   1351.724w   1440 calls
+| | JK: J                           :     21.750u      0.417s     13.366w   1440 calls
+| | | JK: J1                        :     10.383u      0.350s      6.622w   2880 calls
+| | | JK: J2                        :     10.783u      0.050s      6.405w   2880 calls
+| | JK: K                           :    834.150u      0.767s    509.537w   1440 calls
+| | | JK: K1                        :    506.983u      0.583s    309.478w   2880 calls
+| | | JK: K2                        :    327.017u      0.183s    199.992w   2880 calls
+| | JK: wK                          :   1351.433u      1.467s    823.581w   2880 calls
+| | | JK: wK1                       :   1019.533u      1.283s    621.360w  11520 calls
+| | | JK: wK2                       :    331.533u      0.167s    202.093w   5760 calls
+| JK: AO2USO                        :     24.333u      0.050s     14.944w   1440 calls
+HF: Form F                          :      0.200u      0.000s      0.124w   1440 calls
+HF: Form D                          :      0.583u      0.000s      0.316w   1440 calls
+HF: DIIS                            :     11.317u      2.183s      8.358w   1413 calls
+| DIISManager::add_entry            :      0.517u      0.383s      0.647w   1350 calls
+| DIISManager::extrapolate          :      1.133u      1.417s      1.570w   1350 calls
+| | bMatrix setup                   :      0.317u      0.717s      0.739w   1350 calls
+| | bMatrix pseudoinverse           :      0.150u      0.200s      0.123w   1350 calls
+| | New vector                      :      0.633u      0.500s      0.695w   1350 calls
+HF: Form C                          :     18.850u      0.350s     11.392w   1413 calls
+
+**************************************************************************************

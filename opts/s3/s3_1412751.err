@@ -1,0 +1,1064 @@
+import: unable to open X server `' @ error/import.c/ImportImageCommand/344.
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: syntax error near unexpected token `sys.argv'
+/apps/eb/Miniconda3/4.7.10/bin/conda: line 6: `if len(sys.argv) > 1 and sys.argv[1].startswith('shell.') and sys.path and sys.path[0] == '':'
+*** Error in `/apps/gb/PSI4/1.4.0/bin/python': malloc(): memory corruption: 0x0000000002783ea1 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x82aa6)[0x2ac283f62aa6]
+/lib64/libc.so.6(__libc_malloc+0x4c)[0x2ac283f656fc]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(for__get_vm+0x3e)[0x2ac2994749ae]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(for__issue_diagnostic+0x234)[0x2ac29944a1b4]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(for__signal_handler+0x5ac)[0x2ac29944f0dc]
+/lib64/libpthread.so.0(+0xf630)[0x2ac2833c2630]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libstdc++.so.6(_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base+0xf)[0x2ac2d7ce5992]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11PSIOManager14mirror_to_diskEv+0x2a3)[0x2ac297c87983]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11PSIOManager10close_fileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEib+0x3a1)[0x2ac297c89061]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi4PSIO5closeEmi+0x17c)[0x2ac297c851dc]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11DIISManagerD1Ev+0xa7)[0x2ac29731dcd7]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(+0x2c7930d)[0x2ac297f1130d]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(+0x2cf69cb)[0x2ac297f8e9cb]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZNSt15_Sp_counted_ptrIPN3psi3scf3UHFELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv+0x10)[0x2ac2958b5f80]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi7Process11EnvironmentD1Ev+0x4f6)[0x2ac297c58a86]
+/lib64/libc.so.6(+0x39ce9)[0x2ac283f19ce9]
+/lib64/libc.so.6(+0x39d37)[0x2ac283f19d37]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(+0x198e09)[0x2ac283014e09]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(+0x19bc71)[0x2ac283017c71]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(PyErr_PrintEx+0x17d)[0x2ac28301800d]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(PyRun_SimpleFileExFlags+0x465)[0x2ac283019455]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(Py_Main+0xe6d)[0x2ac28303504d]
+/apps/gb/PSI4/1.4.0/bin/python(main+0x16c)[0x400bbc]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac283f02555]
+/apps/gb/PSI4/1.4.0/bin/python[0x400c7d]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 00:2e 5949621                            /apps/gb/PSI4/1.4.0/bin/python3.6
+00601000-00602000 rw-p 00001000 00:2e 5949621                            /apps/gb/PSI4/1.4.0/bin/python3.6
+023b5000-38d1f000 rw-p 00000000 00:00 0                                  [heap]
+2ac282c58000-2ac282c7a000 r-xp 00000000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2ac282c7a000-2ac282c7b000 rw-p 00000000 00:00 0 
+2ac282c7b000-2ac282c7c000 rwxp 00000000 00:00 0 
+2ac282c7c000-2ac282c7e000 r--p 00000000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2ac282c7e000-2ac282c80000 r-xp 00002000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2ac282c80000-2ac282c81000 r--p 00004000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2ac282c81000-2ac282c82000 r--p 00004000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2ac282c82000-2ac282c83000 rw-p 00005000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2ac282c83000-2ac282c87000 r--p 00000000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2ac282c87000-2ac282c8e000 r-xp 00004000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2ac282c8e000-2ac282c91000 r--p 0000b000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2ac282c91000-2ac282c92000 r--p 0000d000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2ac282c92000-2ac282c93000 rw-p 0000e000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2ac282c93000-2ac282dd9000 rw-p 00000000 00:00 0 
+2ac282dd9000-2ac282de2000 r--p 00000000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2ac282de2000-2ac282df4000 r-xp 00009000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2ac282df4000-2ac282df9000 r--p 0001b000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2ac282df9000-2ac282dfa000 r--p 0001f000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2ac282dfa000-2ac282dfb000 rw-p 00020000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2ac282dfb000-2ac282dfd000 rw-p 00000000 00:00 0 
+2ac282dfe000-2ac282e3e000 rw-p 00000000 00:00 0 
+2ac282e3e000-2ac282e46000 r--p 00000000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e46000-2ac282e61000 r-xp 00008000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e61000-2ac282e66000 r--p 00023000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e66000-2ac282e67000 ---p 00028000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e67000-2ac282e68000 r--p 00028000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e68000-2ac282e69000 rw-p 00029000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2ac282e69000-2ac282e6b000 r--p 00000000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2ac282e6b000-2ac282e6e000 r-xp 00002000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2ac282e6e000-2ac282e6f000 r--p 00005000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2ac282e6f000-2ac282e70000 r--p 00005000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2ac282e70000-2ac282e71000 rw-p 00006000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2ac282e71000-2ac282e73000 r--p 00000000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2ac282e73000-2ac282e75000 r-xp 00002000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2ac282e75000-2ac282e76000 r--p 00004000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2ac282e76000-2ac282e77000 r--p 00004000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2ac282e77000-2ac282e78000 rw-p 00005000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2ac282e79000-2ac282e7a000 r--p 00021000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2ac282e7a000-2ac282e7b000 rw-p 00022000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2ac282e7b000-2ac282e7c000 rw-p 00000000 00:00 0 
+2ac282e7c000-2ac283119000 r-xp 00000000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2ac283119000-2ac283319000 ---p 0029d000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2ac283319000-2ac283382000 rw-p 0029d000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2ac283382000-2ac2833b3000 rw-p 00000000 00:00 0 
+2ac2833b3000-2ac2833ca000 r-xp 00000000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2ac2833ca000-2ac2835c9000 ---p 00017000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2ac2835c9000-2ac2835ca000 r--p 00016000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2ac2835ca000-2ac2835cb000 rw-p 00017000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2ac2835cb000-2ac2835cf000 rw-p 00000000 00:00 0 
+2ac2835cf000-2ac2835d1000 r-xp 00000000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2ac2835d1000-2ac2837d1000 ---p 00002000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2ac2837d1000-2ac2837d2000 r--p 00002000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2ac2837d2000-2ac2837d3000 rw-p 00003000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2ac2837d3000-2ac2837d5000 r-xp 00000000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2ac2837d5000-2ac2839d4000 ---p 00002000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2ac2839d4000-2ac2839d5000 r--p 00001000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2ac2839d5000-2ac2839d6000 rw-p 00002000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2ac2839d6000-2ac2839dd000 r-xp 00000000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2ac2839dd000-2ac283bdc000 ---p 00007000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2ac283bdc000-2ac283bdd000 r--p 00006000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2ac283bdd000-2ac283bde000 rw-p 00007000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2ac283bde000-2ac283cdf000 r-xp 00000000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2ac283cdf000-2ac283ede000 ---p 00101000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2ac283ede000-2ac283edf000 r--p 00100000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2ac283edf000-2ac283ee0000 rw-p 00101000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2ac283ee0000-2ac2840a3000 r-xp 00000000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2ac2840a3000-2ac2842a3000 ---p 001c3000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2ac2842a3000-2ac2842a7000 r--p 001c3000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2ac2842a7000-2ac2842a9000 rw-p 001c7000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2ac2842a9000-2ac2846af000 rw-p 00000000 00:00 0 
+2ac284ab0000-2ac284b70000 rw-p 00000000 00:00 0 
+2ac284b70000-2ac284b72000 r-xp 00000000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2ac284b72000-2ac284d72000 ---p 00002000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2ac284d72000-2ac284d74000 rw-p 00002000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2ac284d74000-2ac284d7e000 r-xp 00000000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2ac284d7e000-2ac284f7e000 ---p 0000a000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2ac284f7e000-2ac284f7f000 rw-p 0000a000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2ac284f7f000-2ac284fbf000 rw-p 00000000 00:00 0 
+2ac284fbf000-2ac284fcc000 r-xp 00000000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2ac284fcc000-2ac2851cb000 ---p 0000d000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2ac2851cb000-2ac2851cd000 rw-p 0000c000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2ac2851cd000-2ac2851e3000 r-xp 00000000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2ac2851e3000-2ac2853e2000 ---p 00016000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2ac2853e2000-2ac2853e5000 rw-p 00015000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2ac2853e5000-2ac285425000 rw-p 00000000 00:00 0 
+2ac285425000-2ac28542e000 r-xp 00000000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2ac28542e000-2ac28562d000 ---p 00009000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2ac28562d000-2ac285630000 rw-p 00008000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2ac285630000-2ac2856b0000 rw-p 00000000 00:00 0 
+2ac2856b0000-2ac2856fd000 r-xp 00000000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2ac2856fd000-2ac2858fc000 ---p 0004d000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2ac2858fc000-2ac285905000 rw-p 0004c000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2ac285905000-2ac285985000 rw-p 00000000 00:00 0 
+2ac285985000-2ac2859af000 r--p 00000000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac2859af000-2ac285c1a000 r-xp 0002a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac285c1a000-2ac285c9f000 r--p 00295000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac285c9f000-2ac285ca0000 ---p 0031a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac285ca0000-2ac285ca3000 r--p 0031a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac285ca3000-2ac285cbf000 rw-p 0031d000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2ac285cbf000-2ac285ce0000 rw-p 00000000 00:00 0 
+2ac285ce0000-2ac2861ab000 r-xp 00000000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2ac2861ab000-2ac2863ab000 ---p 004cb000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2ac2863ab000-2ac2863b1000 r--p 004cb000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2ac2863b1000-2ac2863b3000 rw-p 004d1000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2ac2863b3000-2ac286447000 rw-p 00000000 00:00 0 
+2ac286447000-2ac28645e000 r-xp 00000000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2ac28645e000-2ac28665e000 ---p 00017000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2ac28665e000-2ac286662000 rw-p 00017000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2ac286662000-2ac286762000 rw-p 00000000 00:00 0 
+2ac286762000-2ac286783000 r-xp 00000000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2ac286783000-2ac286982000 ---p 00021000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2ac286982000-2ac286987000 rw-p 00020000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2ac286987000-2ac2869c7000 rw-p 00000000 00:00 0 
+2ac2869c7000-2ac2869ca000 r-xp 00000000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2ac2869ca000-2ac286bc9000 ---p 00003000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2ac286bc9000-2ac286bca000 rw-p 00002000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2ac286bca000-2ac286bcf000 r-xp 00000000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2ac286bcf000-2ac286dce000 ---p 00005000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2ac286dce000-2ac286dd0000 rw-p 00004000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2ac286dd0000-2ac286f50000 rw-p 00000000 00:00 0 
+2ac286f50000-2ac286f52000 r-xp 00000000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2ac286f52000-2ac287152000 ---p 00002000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2ac287152000-2ac287153000 rw-p 00002000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2ac287153000-2ac287165000 r-xp 00000000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2ac287165000-2ac287365000 ---p 00012000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2ac287365000-2ac287367000 rw-p 00012000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2ac287367000-2ac28736e000 r-xp 00000000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2ac28736e000-2ac28756e000 ---p 00007000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2ac28756e000-2ac287570000 rw-p 00007000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2ac287570000-2ac287574000 r--p 00000000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac287574000-2ac28758b000 r-xp 00004000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac28758b000-2ac287596000 r--p 0001b000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac287596000-2ac287597000 ---p 00026000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac287597000-2ac287598000 r--p 00026000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac287598000-2ac287599000 rw-p 00027000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2ac287599000-2ac2875d9000 rw-p 00000000 00:00 0 
+2ac2875d9000-2ac2875da000 r--p 00000000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2ac2875da000-2ac2875ec000 r-xp 00001000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2ac2875ec000-2ac2875ee000 r--p 00013000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2ac2875ee000-2ac2875ef000 r--p 00014000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2ac2875ef000-2ac2875f0000 rw-p 00015000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2ac2875f0000-2ac287670000 rw-p 00000000 00:00 0 
+2ac287670000-2ac28767c000 r--p 00000000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac28767c000-2ac2876c4000 r-xp 0000c000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac2876c4000-2ac2876ed000 r--p 00054000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac2876ed000-2ac2876ee000 ---p 0007d000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac2876ee000-2ac2876ef000 r--p 0007d000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac2876ef000-2ac287712000 rw-p 0007e000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2ac287712000-2ac287714000 rw-p 00000000 00:00 0 
+2ac287714000-2ac287718000 r--p 00000000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac287718000-2ac287749000 r-xp 00004000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac287749000-2ac28774c000 r--p 00035000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac28774c000-2ac28774d000 ---p 00038000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac28774d000-2ac28774e000 r--p 00038000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac28774e000-2ac287750000 rw-p 00039000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2ac287750000-2ac287755000 r--p 00000000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2ac287755000-2ac2877a1000 r-xp 00005000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2ac2877a1000-2ac2877aa000 r--p 00051000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2ac2877aa000-2ac2877ab000 r--p 00059000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2ac2877ab000-2ac2877ac000 rw-p 0005a000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2ac2877ac000-2ac2877ad000 rw-p 00000000 00:00 0 
+2ac2877ad000-2ac2877b1000 r--p 00000000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877b1000-2ac2877c1000 r-xp 00004000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877c1000-2ac2877c9000 r--p 00014000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877c9000-2ac2877ca000 ---p 0001c000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877ca000-2ac2877cb000 r--p 0001c000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877cb000-2ac2877cd000 rw-p 0001d000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2ac2877cd000-2ac2877d4000 r--p 00000000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2ac2877d4000-2ac2877ef000 r-xp 00007000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2ac2877ef000-2ac2877f7000 r--p 00022000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2ac2877f7000-2ac2877f8000 r--p 00029000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2ac2877f8000-2ac2877fd000 rw-p 0002a000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2ac2877fd000-2ac287802000 r-xp 00000000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2ac287802000-2ac287a02000 ---p 00005000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2ac287a02000-2ac287a03000 rw-p 00005000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2ac287a03000-2ac287a06000 r--p 00000000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a06000-2ac287a14000 r-xp 00003000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a14000-2ac287a1a000 r--p 00011000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a1a000-2ac287a1b000 ---p 00017000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a1b000-2ac287a1c000 r--p 00017000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a1c000-2ac287a1d000 rw-p 00018000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2ac287a1d000-2ac287a22000 r-xp 00000000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2ac287a22000-2ac287c22000 ---p 00005000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2ac287c22000-2ac287c23000 rw-p 00005000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2ac287c23000-2ac287c3f000 r--p 00000000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2ac287c3f000-2ac287c80000 r-xp 0001c000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2ac287c80000-2ac287c91000 r--p 0005d000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2ac287c91000-2ac287c96000 r--p 0006d000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2ac287c96000-2ac287c9c000 rw-p 00072000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2ac287c9c000-2ac287d09000 r--p 00000000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2ac287d09000-2ac287e33000 r-xp 0006d000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2ac287e33000-2ac287eba000 r--p 00197000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2ac287eba000-2ac287ed6000 r--p 0021d000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2ac287ed6000-2ac287ee1000 rw-p 00239000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2ac287ee1000-2ac287ee5000 rw-p 00000000 00:00 0 
+2ac287ee5000-2ac287eee000 r-xp 00000000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2ac287eee000-2ac2880ed000 ---p 00009000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2ac2880ed000-2ac2880ef000 rw-p 00008000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2ac2880ef000-2ac288101000 r-xp 00000000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2ac288101000-2ac288300000 ---p 00012000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2ac288300000-2ac288302000 rw-p 00011000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2ac288302000-2ac288304000 r-xp 00000000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2ac288304000-2ac288504000 ---p 00002000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2ac288504000-2ac288505000 rw-p 00002000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2ac288505000-2ac288508000 r-xp 00000000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2ac288508000-2ac288707000 ---p 00003000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2ac288707000-2ac288708000 rw-p 00002000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2ac288708000-2ac28870f000 r--p 00000000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2ac28870f000-2ac28872f000 r-xp 00007000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2ac28872f000-2ac288736000 r--p 00027000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2ac288736000-2ac288737000 r--p 0002d000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2ac288737000-2ac28873a000 rw-p 0002e000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2ac28873a000-2ac28873b000 rw-p 00000000 00:00 0 
+2ac28873b000-2ac288748000 r--p 00000000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2ac288748000-2ac2887a1000 r-xp 0000d000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2ac2887a1000-2ac2887cd000 r--p 00066000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2ac2887cd000-2ac2887ce000 r--p 00091000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2ac2887ce000-2ac2887f0000 rw-p 00092000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2ac2887f0000-2ac288832000 rw-p 00000000 00:00 0 
+2ac288832000-2ac288836000 r--p 00000000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2ac288836000-2ac288840000 r-xp 00004000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2ac288840000-2ac288843000 r--p 0000e000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2ac288843000-2ac288844000 r--p 00010000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2ac288844000-2ac288846000 rw-p 00011000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2ac288846000-2ac28884a000 r--p 00000000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2ac28884a000-2ac288857000 r-xp 00004000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2ac288857000-2ac28885b000 r--p 00011000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2ac28885b000-2ac28885c000 r--p 00014000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2ac28885c000-2ac28885e000 rw-p 00015000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2ac28885e000-2ac28899e000 rw-p 00000000 00:00 0 
+2ac28899e000-2ac28ca18000 r-xp 00000000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2ac28ca18000-2ac28cc17000 ---p 0407a000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2ac28cc17000-2ac28cc1e000 r--p 04079000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2ac28cc1e000-2ac28cc4c000 rw-p 04080000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2ac28cc4c000-2ac28cc73000 rw-p 00000000 00:00 0 
+2ac28cc73000-2ac28ce23000 r-xp 00000000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2ac28ce23000-2ac28d022000 ---p 001b0000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2ac28d022000-2ac28d025000 r--p 001af000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2ac28d025000-2ac28d02f000 rw-p 001b2000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2ac28d02f000-2ac28d05d000 rw-p 00000000 00:00 0 
+2ac28d05d000-2ac28d060000 r--p 00000000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2ac28d060000-2ac28d06c000 r-xp 00003000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2ac28d06c000-2ac28d06f000 r--p 0000f000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2ac28d06f000-2ac28d070000 r--p 00011000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2ac28d070000-2ac28d071000 rw-p 00012000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2ac28d071000-2ac28f0da000 r-xp 00000000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2ac28f0da000-2ac28f2da000 ---p 02069000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2ac28f2da000-2ac28f2de000 r--p 02069000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2ac28f2de000-2ac28f544000 rw-p 0206d000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2ac28f544000-2ac28f54d000 rw-p 00000000 00:00 0 
+2ac28f54d000-2ac28feac000 r-xp 00000000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2ac28feac000-2ac2900ac000 ---p 0095f000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2ac2900ac000-2ac2900ad000 r--p 0095f000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2ac2900ad000-2ac2900c0000 rw-p 00960000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2ac2900c0000-2ac2900c5000 rw-p 00000000 00:00 0 
+2ac2900c5000-2ac29359e000 r-xp 00000000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2ac29359e000-2ac29379e000 ---p 034d9000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2ac29379e000-2ac2937a5000 r--p 034d9000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2ac2937a5000-2ac2937b3000 rw-p 034e0000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2ac2937b3000-2ac2937ba000 rw-p 00000000 00:00 0 
+2ac2937ba000-2ac294344000 r-xp 00000000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2ac294344000-2ac294543000 ---p 00b8a000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2ac294543000-2ac294546000 r--p 00b89000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2ac294546000-2ac29455b000 rw-p 00b8c000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2ac29455b000-2ac29455c000 rw-p 00000000 00:00 0 
+2ac29455c000-2ac294562000 r--p 00000000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2ac294562000-2ac294578000 r-xp 00006000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2ac294578000-2ac29457c000 r--p 0001c000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2ac29457c000-2ac29457d000 r--p 0001f000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2ac29457d000-2ac294580000 rw-p 00020000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2ac294580000-2ac2945c0000 rw-p 00000000 00:00 0 
+2ac2945c0000-2ac2945c1000 r-xp 00000000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2ac2945c1000-2ac2947c1000 ---p 00001000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2ac2947c1000-2ac2947c2000 rw-p 00001000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2ac2947c2000-2ac2947ca000 r--p 00000000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2ac2947ca000-2ac2947f8000 r-xp 00008000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2ac2947f8000-2ac2947ff000 r--p 00036000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2ac2947ff000-2ac294800000 r--p 0003c000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2ac294800000-2ac294805000 rw-p 0003d000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2ac294805000-2ac294806000 rw-p 00000000 00:00 0 
+2ac294806000-2ac29480f000 r--p 00000000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2ac29480f000-2ac294846000 r-xp 00009000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2ac294846000-2ac29484c000 r--p 00040000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2ac29484c000-2ac29484d000 r--p 00045000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2ac29484d000-2ac294852000 rw-p 00046000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2ac294852000-2ac294854000 rw-p 00000000 00:00 0 
+2ac294854000-2ac294859000 r--p 00000000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2ac294859000-2ac29486e000 r-xp 00005000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2ac29486e000-2ac294871000 r--p 0001a000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2ac294871000-2ac294872000 r--p 0001c000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2ac294872000-2ac294874000 rw-p 0001d000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2ac294874000-2ac2948b5000 rw-p 00000000 00:00 0 
+2ac2948b5000-2ac2948bd000 r--p 00000000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2ac2948bd000-2ac2948e7000 r-xp 00008000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2ac2948e7000-2ac2948ee000 r--p 00032000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2ac2948ee000-2ac2948ef000 r--p 00038000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2ac2948ef000-2ac2948f5000 rw-p 00039000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2ac2948f5000-2ac2948f6000 rw-p 00000000 00:00 0 
+2ac2948f6000-2ac2948fc000 r--p 00000000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2ac2948fc000-2ac294915000 r-xp 00006000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2ac294915000-2ac29491a000 r--p 0001f000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2ac29491a000-2ac29491b000 r--p 00023000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2ac29491b000-2ac29491e000 rw-p 00024000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2ac29491e000-2ac29491f000 rw-p 00000000 00:00 0 
+2ac29491f000-2ac294923000 r--p 00000000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2ac294923000-2ac294930000 r-xp 00004000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2ac294930000-2ac294932000 r--p 00011000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2ac294932000-2ac294933000 r--p 00012000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2ac294933000-2ac294935000 rw-p 00013000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2ac294935000-2ac294975000 rw-p 00000000 00:00 0 
+2ac294975000-2ac294979000 r--p 00000000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2ac294979000-2ac294983000 r-xp 00004000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2ac294983000-2ac294985000 r--p 0000e000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2ac294985000-2ac294986000 r--p 0000f000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2ac294986000-2ac294987000 rw-p 00010000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2ac294987000-2ac294988000 rw-p 00000000 00:00 0 
+2ac29498e000-2ac294992000 r-xp 00000000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2ac294992000-2ac294b91000 ---p 00004000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2ac294b91000-2ac294b92000 r--p 00003000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2ac294b92000-2ac294b93000 rw-p 00004000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2ac294b93000-2ac294b9c000 r--p 00000000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2ac294b9c000-2ac294bd1000 r-xp 00009000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2ac294bd1000-2ac294bd7000 r--p 0003e000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2ac294bd7000-2ac294bd8000 r--p 00043000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2ac294bd8000-2ac294bde000 rw-p 00044000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2ac294bde000-2ac294c20000 rw-p 00000000 00:00 0 
+2ac294c20000-2ac294c2b000 r--p 00000000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c2b000-2ac294c70000 r-xp 0000b000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c70000-2ac294c79000 r--p 00050000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c79000-2ac294c7a000 ---p 00059000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c7a000-2ac294c7b000 r--p 00059000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c7b000-2ac294c83000 rw-p 0005a000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2ac294c83000-2ac294c85000 rw-p 00000000 00:00 0 
+2ac294c85000-2ac294c8e000 r--p 00000000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2ac294c8e000-2ac294ce3000 r-xp 00009000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2ac294ce3000-2ac294cea000 r--p 0005e000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2ac294cea000-2ac294ceb000 r--p 00064000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2ac294ceb000-2ac294cf0000 rw-p 00065000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2ac294cf0000-2ac294cf2000 rw-p 00000000 00:00 0 
+2ac294cf2000-2ac294cf7000 r--p 00000000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2ac294cf7000-2ac294d0b000 r-xp 00005000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2ac294d0b000-2ac294d0e000 r--p 00019000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2ac294d0e000-2ac294d0f000 r--p 0001b000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2ac294d0f000-2ac294d11000 rw-p 0001c000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2ac294d11000-2ac294d52000 rw-p 00000000 00:00 0 
+2ac294d52000-2ac294d5b000 r--p 00000000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2ac294d5b000-2ac294d9d000 r-xp 00009000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2ac294d9d000-2ac294da3000 r--p 0004b000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2ac294da3000-2ac294da4000 r--p 00050000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2ac294da4000-2ac294daa000 rw-p 00051000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2ac294daa000-2ac294dab000 rw-p 00000000 00:00 0 
+2ac294dab000-2ac294db6000 r--p 00000000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2ac294db6000-2ac294e1b000 r-xp 0000b000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2ac294e1b000-2ac294e23000 r--p 00070000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2ac294e23000-2ac294e24000 r--p 00077000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2ac294e24000-2ac294e2b000 rw-p 00078000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2ac294e2b000-2ac294e2d000 rw-p 00000000 00:00 0 
+2ac294e2d000-2ac294e36000 r--p 00000000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294e36000-2ac294e96000 r-xp 00009000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294e96000-2ac294e9c000 r--p 00069000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294e9c000-2ac294e9d000 ---p 0006f000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294e9d000-2ac294e9e000 r--p 0006f000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294e9e000-2ac294ea6000 rw-p 00070000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2ac294ea6000-2ac294ea8000 rw-p 00000000 00:00 0 
+2ac294ea8000-2ac294eb0000 r--p 00000000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2ac294eb0000-2ac294edb000 r-xp 00008000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2ac294edb000-2ac294ee1000 r--p 00033000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2ac294ee1000-2ac294ee2000 r--p 00038000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2ac294ee2000-2ac294ee7000 rw-p 00039000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2ac294ee7000-2ac294f28000 rw-p 00000000 00:00 0 
+2ac294f28000-2ac294f2d000 r--p 00000000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2ac294f2d000-2ac294f3e000 r-xp 00005000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2ac294f3e000-2ac294f42000 r--p 00016000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2ac294f42000-2ac294f43000 r--p 00019000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2ac294f43000-2ac294f45000 rw-p 0001a000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2ac294f45000-2ac294f46000 rw-p 00000000 00:00 0 
+2ac294f46000-2ac294f4a000 r--p 00000000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2ac294f4a000-2ac294f53000 r-xp 00004000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2ac294f53000-2ac294f55000 r--p 0000d000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2ac294f55000-2ac294f56000 r--p 0000e000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2ac294f56000-2ac294f57000 rw-p 0000f000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2ac294f57000-2ac295298000 rw-p 00000000 00:00 0 
+2ac295298000-2ac295491000 r--p 00000000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac295491000-2ac29801d000 r-xp 001f9000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac29801d000-2ac29898a000 r--p 02d85000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac29898a000-2ac29898b000 ---p 036f2000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac29898b000-2ac29899e000 r--p 036f2000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac29899e000-2ac298b19000 rw-p 03705000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2ac298b19000-2ac298cde000 rw-p 00000000 00:00 0 
+2ac298cde000-2ac298d0a000 r--p 00000000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2ac298d0a000-2ac29928b000 r-xp 0002c000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2ac29928b000-2ac299328000 r--p 005ad000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2ac299328000-2ac29932b000 r--p 00649000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2ac29932b000-2ac299344000 rw-p 0064c000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2ac299344000-2ac299349000 rw-p 00000000 00:00 0 
+2ac299349000-2ac29952d000 r-xp 00000000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2ac29952d000-2ac29972d000 ---p 001e4000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2ac29972d000-2ac299731000 r--p 001e4000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2ac299731000-2ac29973b000 rw-p 001e8000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2ac29973b000-2ac299795000 rw-p 00000000 00:00 0 
+2ac299795000-2ac29979c000 r--p 00000000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2ac29979c000-2ac299be2000 r-xp 00007000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2ac299be2000-2ac299c33000 r--p 0044d000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2ac299c33000-2ac299c35000 r--p 0049d000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2ac299c35000-2ac299c36000 rw-p 0049f000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2ac299c36000-2ac299c60000 r--p 00000000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2ac299c60000-2ac29aa9a000 r-xp 0002a000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2ac29aa9a000-2ac29ab9e000 r--p 00e64000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2ac29ab9e000-2ac29abb2000 r--p 00f67000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2ac29abb2000-2ac29abda000 rw-p 00f7b000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2ac29abda000-2ac29abdb000 rw-p 00000000 00:00 0 
+2ac29abdb000-2ac29ac1d000 r--p 00000000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2ac29ac1d000-2ac2b936f000 r-xp 00042000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2ac2b936f000-2ac2b9534000 r--p 1e794000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2ac2b9534000-2ac2b953a000 r--p 1e958000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2ac2b953a000-2ac2b953b000 rw-p 1e95e000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2ac2b953b000-2ac2b9547000 rw-p 00000000 00:00 0 
+2ac2b9547000-2ac2b958e000 r--p 00000000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2b958e000-2ac2ce123000 r-xp 00047000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2ce123000-2ac2ce20f000 r--p 14bdc000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2ce20f000-2ac2ce210000 ---p 14cc8000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2ce210000-2ac2ce217000 r--p 14cc8000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2ce217000-2ac2ce218000 rw-p 14ccf000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2ac2ce218000-2ac2ce225000 rw-p 00000000 00:00 0 
+2ac2ce225000-2ac2d0537000 r-xp 00000000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2ac2d0537000-2ac2d0736000 ---p 02312000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2ac2d0736000-2ac2d073c000 r--p 02311000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2ac2d073c000-2ac2d073f000 rw-p 02317000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2ac2d073f000-2ac2d0747000 rw-p 00000000 00:00 0 
+2ac2d0747000-2ac2d084b000 r-xp 00000000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2ac2d084b000-2ac2d0a4a000 ---p 00104000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2ac2d0a4a000-2ac2d0a4d000 r--p 00103000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2ac2d0a4d000-2ac2d0a50000 rw-p 00106000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2ac2d0a50000-2ac2d0aa2000 rw-p 00000000 00:00 0 
+2ac2d0aa2000-2ac2d0f65000 r-xp 00000000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2ac2d0f65000-2ac2d1164000 ---p 004c3000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2ac2d1164000-2ac2d1168000 r--p 004c2000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2ac2d1168000-2ac2d1186000 rw-p 004c6000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2ac2d1186000-2ac2d7ad9000 rw-p 00000000 00:00 0 
+2ac2d7ad9000-2ac2d7afb000 rw-p 005ed000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2ac2d7afb000-2ac2d7b27000 r--p 00000000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7b27000-2ac2d7beb000 r-xp 0002c000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7beb000-2ac2d7c1f000 r--p 000f0000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7c1f000-2ac2d7c20000 ---p 00124000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7c20000-2ac2d7c23000 r--p 00124000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7c23000-2ac2d7c2a000 rw-p 00127000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2ac2d7c2a000-2ac2d7c2b000 rw-p 00000000 00:00 0 
+2ac2d7c2b000-2ac2d7cce000 r--p 00000000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2ac2d7cce000-2ac2d7d4d000 r-xp 000a3000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2ac2d7d4d000-2ac2d7d8e000 r--p 00122000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2ac2d7d8e000-2ac2d7d99000 r--p 00162000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2ac2d7d99000-2ac2d7d9d000 rw-p 0016d000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2ac2d7d9d000-2ac2d7da0000 rw-p 00000000 00:00 0 
+2ac2d7da0000-2ac2d8144000 r-xp 00000000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2ac2d8144000-2ac2d8344000 ---p 003a4000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2ac2d8344000-2ac2d8356000 rw-p 003a4000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2ac2d8356000-2ac2d876a000 rw-p 00000000 00:00 0 
+2ac2d87aa000-2ac2d882a000 rw-p 00000000 00:00 0 
+2ac2d882a000-2ac2d883d000 r-xp 00000000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2ac2d883d000-2ac2d8a3c000 ---p 00013000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2ac2d8a3c000-2ac2d8a42000 rw-p 00012000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2ac2d8a42000-2ac2d8bc2000 rw-p 00000000 00:00 0 
+2ac2d8bc2000-2ac2d8bc6000 r-xp 00000000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2ac2d8bc6000-2ac2d8dc6000 ---p 00004000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2ac2d8dc6000-2ac2d8dc8000 rw-p 00004000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2ac2d8dc8000-2ac2d8e88000 rw-p 00000000 00:00 0 
+2ac2d8e88000-2ac2d8e96000 r-xp 00000000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2ac2d8e96000-2ac2d9096000 ---p 0000e000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2ac2d9096000-2ac2d9098000 rw-p 0000e000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2ac2d9098000-2ac2d90d3000 r-xp 00000000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2ac2d90d3000-2ac2d92d3000 ---p 0003b000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2ac2d92d3000-2ac2d92d7000 rw-p 0003b000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2ac2d92d7000-2ac2d9317000 rw-p 00000000 00:00 0 
+2ac2d9357000-2ac2d93d7000 rw-p 00000000 00:00 0 
+2ac2d9417000-2ac2d9457000 rw-p 00000000 00:00 0 
+2ac2d9497000-2ac2d9517000 rw-p 00000000 00:00 0 
+2ac2d9597000-2ac2d96d7000 rw-p 00000000 00:00 0 
+2ac2d9797000-2ac2e0922000 rw-p 00000000 00:00 0 
+2ac2e4000000-2ac2e4021000 rw-p 00000000 00:00 0 
+2ac2e4021000-2ac2e8000000 ---p 00000000 00:00 0 
+7ffc26506000-7ffc26528000 rw-p 00000000 00:00 0                          [stack]
+7ffc26571000-7ffc26573000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+*** Error in `/apps/gb/PSI4/1.4.0/bin/python': malloc(): memory corruption: 0x00000000756a57f1 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x82aa6)[0x2b8270c93aa6]
+/lib64/libc.so.6(__libc_malloc+0x4c)[0x2b8270c966fc]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(tbk_get_pc_info_pie+0x3f7)[0x2b82862037e7]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(+0x188c1e)[0x2b8286202c1e]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(tbk_trace_stack_impl+0x4b9)[0x2b828620499d]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(tbk_string_stack_signal_impl+0x1e8)[0x2b82862028ee]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(+0x146fad)[0x2b82861c0fad]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(tbk_stack_trace+0x36)[0x2b82861c0db6]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(for__issue_diagnostic+0xc63)[0x2b828617bbe3]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libgdma.so(for__signal_handler+0x5ac)[0x2b82861800dc]
+/lib64/libpthread.so.0(+0xf630)[0x2b82700f3630]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/../../../libstdc++.so.6(_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base+0xf)[0x2b82c4a16992]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11PSIOManager14mirror_to_diskEv+0x2a3)[0x2b82849b8983]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11PSIOManager10close_fileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEib+0x3a1)[0x2b82849ba061]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi4PSIO5closeEmi+0x17c)[0x2b82849b61dc]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi11DIISManagerD1Ev+0xa7)[0x2b828404ecd7]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(+0x2c7930d)[0x2b8284c4230d]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(+0x2cf69cb)[0x2b8284cbf9cb]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZNSt15_Sp_counted_ptrIPN3psi3scf3UHFELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv+0x10)[0x2b82825e6f80]
+/apps/gb/PSI4/1.4.0/lib//python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so(_ZN3psi7Process11EnvironmentD1Ev+0x4f6)[0x2b8284989a86]
+/lib64/libc.so.6(+0x39ce9)[0x2b8270c4ace9]
+/lib64/libc.so.6(+0x39d37)[0x2b8270c4ad37]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(+0x198e09)[0x2b826fd45e09]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(+0x19bc71)[0x2b826fd48c71]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(PyErr_PrintEx+0x17d)[0x2b826fd4900d]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(PyRun_SimpleFileExFlags+0x465)[0x2b826fd4a455]
+/apps/gb/PSI4/1.4.0/bin/../lib/libpython3.6m.so.1.0(Py_Main+0xe6d)[0x2b826fd6604d]
+/apps/gb/PSI4/1.4.0/bin/python(main+0x16c)[0x400bbc]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b8270c33555]
+/apps/gb/PSI4/1.4.0/bin/python[0x400c7d]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 00:2e 5949621                            /apps/gb/PSI4/1.4.0/bin/python3.6
+00601000-00602000 rw-p 00001000 00:2e 5949621                            /apps/gb/PSI4/1.4.0/bin/python3.6
+013cc000-9de4b000 rw-p 00000000 00:00 0                                  [heap]
+2b826f989000-2b826f9ab000 r-xp 00000000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2b826f9ab000-2b826f9ac000 rw-p 00000000 00:00 0 
+2b826f9ac000-2b826f9ad000 rwxp 00000000 00:00 0 
+2b826f9ad000-2b826f9af000 r--p 00000000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2b826f9af000-2b826f9b1000 r-xp 00002000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2b826f9b1000-2b826f9b2000 r--p 00004000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2b826f9b2000-2b826f9b3000 r--p 00004000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2b826f9b3000-2b826f9b4000 rw-p 00005000 00:2e 5963244                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+2b826f9b4000-2b826f9b8000 r--p 00000000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2b826f9b8000-2b826f9bf000 r-xp 00004000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2b826f9bf000-2b826f9c2000 r--p 0000b000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2b826f9c2000-2b826f9c3000 r--p 0000d000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2b826f9c3000-2b826f9c4000 rw-p 0000e000 00:2e 5960284                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/sfc64.cpython-36m-x86_64-linux-gnu.so
+2b826f9c4000-2b826fb0a000 rw-p 00000000 00:00 0 
+2b826fb0a000-2b826fb13000 r--p 00000000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2b826fb13000-2b826fb25000 r-xp 00009000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2b826fb25000-2b826fb2a000 r--p 0001b000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2b826fb2a000-2b826fb2b000 r--p 0001f000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2b826fb2b000-2b826fb2c000 rw-p 00020000 00:2e 5958734                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+2b826fb2c000-2b826fb2e000 rw-p 00000000 00:00 0 
+2b826fb2f000-2b826fb6f000 rw-p 00000000 00:00 0 
+2b826fb6f000-2b826fb77000 r--p 00000000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb77000-2b826fb92000 r-xp 00008000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb92000-2b826fb97000 r--p 00023000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb97000-2b826fb98000 ---p 00028000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb98000-2b826fb99000 r--p 00028000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb99000-2b826fb9a000 rw-p 00029000 00:2e 5959654                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+2b826fb9a000-2b826fb9c000 r--p 00000000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2b826fb9c000-2b826fb9f000 r-xp 00002000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2b826fb9f000-2b826fba0000 r--p 00005000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2b826fba0000-2b826fba1000 r--p 00005000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2b826fba1000-2b826fba2000 rw-p 00006000 00:2e 5955391                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/__init__.cpython-36m-x86_64-linux-gnu.so
+2b826fba2000-2b826fba4000 r--p 00000000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2b826fba4000-2b826fba6000 r-xp 00002000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2b826fba6000-2b826fba7000 r--p 00004000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2b826fba7000-2b826fba8000 r--p 00004000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2b826fba8000-2b826fba9000 rw-p 00005000 00:2e 5953529                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/version.cpython-36m-x86_64-linux-gnu.so
+2b826fbaa000-2b826fbab000 r--p 00021000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2b826fbab000-2b826fbac000 rw-p 00022000 00:24 152762472                  /usr/lib64/ld-2.17.so
+2b826fbac000-2b826fbad000 rw-p 00000000 00:00 0 
+2b826fbad000-2b826fe4a000 r-xp 00000000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2b826fe4a000-2b827004a000 ---p 0029d000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2b827004a000-2b82700b3000 rw-p 0029d000 00:2e 5949400                    /apps/gb/PSI4/1.4.0/lib/libpython3.6m.so.1.0
+2b82700b3000-2b82700e4000 rw-p 00000000 00:00 0 
+2b82700e4000-2b82700fb000 r-xp 00000000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2b82700fb000-2b82702fa000 ---p 00017000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2b82702fa000-2b82702fb000 r--p 00016000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2b82702fb000-2b82702fc000 rw-p 00017000 00:24 153250911                  /usr/lib64/libpthread-2.17.so
+2b82702fc000-2b8270300000 rw-p 00000000 00:00 0 
+2b8270300000-2b8270302000 r-xp 00000000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2b8270302000-2b8270502000 ---p 00002000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2b8270502000-2b8270503000 r--p 00002000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2b8270503000-2b8270504000 rw-p 00003000 00:24 152806485                  /usr/lib64/libdl-2.17.so
+2b8270504000-2b8270506000 r-xp 00000000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2b8270506000-2b8270705000 ---p 00002000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2b8270705000-2b8270706000 r--p 00001000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2b8270706000-2b8270707000 rw-p 00002000 00:24 153413678                  /usr/lib64/libutil-2.17.so
+2b8270707000-2b827070e000 r-xp 00000000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2b827070e000-2b827090d000 ---p 00007000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2b827090d000-2b827090e000 r--p 00006000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2b827090e000-2b827090f000 rw-p 00007000 00:24 153250949                  /usr/lib64/librt-2.17.so
+2b827090f000-2b8270a10000 r-xp 00000000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2b8270a10000-2b8270c0f000 ---p 00101000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2b8270c0f000-2b8270c10000 r--p 00100000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2b8270c10000-2b8270c11000 rw-p 00101000 00:24 153021617                  /usr/lib64/libm-2.17.so
+2b8270c11000-2b8270dd4000 r-xp 00000000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2b8270dd4000-2b8270fd4000 ---p 001c3000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2b8270fd4000-2b8270fd8000 r--p 001c3000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2b8270fd8000-2b8270fda000 rw-p 001c7000 00:24 152806415                  /usr/lib64/libc-2.17.so
+2b8270fda000-2b82713e2000 rw-p 00000000 00:00 0 
+2b82717e1000-2b82718a1000 rw-p 00000000 00:00 0 
+2b82718a1000-2b82718a3000 r-xp 00000000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2b82718a3000-2b8271aa3000 ---p 00002000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2b8271aa3000-2b8271aa5000 rw-p 00002000 00:2e 5953928                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+2b8271aa5000-2b8271aaf000 r-xp 00000000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2b8271aaf000-2b8271caf000 ---p 0000a000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2b8271caf000-2b8271cb0000 rw-p 0000a000 00:2e 5953929                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+2b8271cb0000-2b8271cf0000 rw-p 00000000 00:00 0 
+2b8271cf0000-2b8271cfd000 r-xp 00000000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2b8271cfd000-2b8271efc000 ---p 0000d000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2b8271efc000-2b8271efe000 rw-p 0000c000 00:2e 5954000                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+2b8271efe000-2b8271f14000 r-xp 00000000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2b8271f14000-2b8272113000 ---p 00016000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2b8272113000-2b8272116000 rw-p 00015000 00:2e 5953907                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+2b8272116000-2b8272156000 rw-p 00000000 00:00 0 
+2b8272156000-2b827215f000 r-xp 00000000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2b827215f000-2b827235e000 ---p 00009000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2b827235e000-2b8272361000 rw-p 00008000 00:2e 5953968                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+2b8272361000-2b82723e1000 rw-p 00000000 00:00 0 
+2b82723e1000-2b827242e000 r-xp 00000000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2b827242e000-2b827262d000 ---p 0004d000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2b827262d000-2b8272636000 rw-p 0004c000 00:2e 5952475                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+2b8272636000-2b82726b6000 rw-p 00000000 00:00 0 
+2b82726b6000-2b82726e0000 r--p 00000000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b82726e0000-2b827294b000 r-xp 0002a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b827294b000-2b82729d0000 r--p 00295000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b82729d0000-2b82729d1000 ---p 0031a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b82729d1000-2b82729d4000 r--p 0031a000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b82729d4000-2b82729f0000 rw-p 0031d000 00:2e 5957955                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+2b82729f0000-2b8272a11000 rw-p 00000000 00:00 0 
+2b8272a11000-2b8272edc000 r-xp 00000000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2b8272edc000-2b82730dc000 ---p 004cb000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2b82730dc000-2b82730e2000 r--p 004cb000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2b82730e2000-2b82730e4000 rw-p 004d1000 00:2e 5959049                    /apps/gb/PSI4/1.4.0/lib/libmkl_rt.so
+2b82730e4000-2b8273178000 rw-p 00000000 00:00 0 
+2b8273178000-2b827318f000 r-xp 00000000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2b827318f000-2b827338f000 ---p 00017000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2b827338f000-2b8273393000 rw-p 00017000 00:2e 5953943                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+2b8273393000-2b8273493000 rw-p 00000000 00:00 0 
+2b8273493000-2b82734b4000 r-xp 00000000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2b82734b4000-2b82736b3000 ---p 00021000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2b82736b3000-2b82736b8000 rw-p 00020000 00:2e 5953880                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+2b82736b8000-2b82736f8000 rw-p 00000000 00:00 0 
+2b82736f8000-2b82736fb000 r-xp 00000000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2b82736fb000-2b82738fa000 ---p 00003000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2b82738fa000-2b82738fb000 rw-p 00002000 00:2e 5953946                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+2b82738fb000-2b8273900000 r-xp 00000000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2b8273900000-2b8273aff000 ---p 00005000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2b8273aff000-2b8273b01000 rw-p 00004000 00:2e 5954016                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+2b8273b01000-2b8273c81000 rw-p 00000000 00:00 0 
+2b8273c81000-2b8273c83000 r-xp 00000000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2b8273c83000-2b8273e83000 ---p 00002000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2b8273e83000-2b8273e84000 rw-p 00002000 00:2e 5953999                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+2b8273e84000-2b8273e96000 r-xp 00000000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2b8273e96000-2b8274096000 ---p 00012000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2b8274096000-2b8274098000 rw-p 00012000 00:2e 5949405                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+2b8274098000-2b827409f000 r-xp 00000000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2b827409f000-2b827429f000 ---p 00007000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2b827429f000-2b82742a1000 rw-p 00007000 00:2e 5949409                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+2b82742a1000-2b82742a5000 r--p 00000000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742a5000-2b82742bc000 r-xp 00004000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742bc000-2b82742c7000 r--p 0001b000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742c7000-2b82742c8000 ---p 00026000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742c8000-2b82742c9000 r--p 00026000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742c9000-2b82742ca000 rw-p 00027000 00:2e 5950093                    /apps/gb/PSI4/1.4.0/lib/liblzma.so.5.2.5
+2b82742ca000-2b827430a000 rw-p 00000000 00:00 0 
+2b827430a000-2b827430b000 r--p 00000000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2b827430b000-2b827431d000 r-xp 00001000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2b827431d000-2b827431f000 r--p 00013000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2b827431f000-2b8274320000 r--p 00014000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2b8274320000-2b8274321000 rw-p 00015000 00:2e 5962406                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/fft/pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+2b8274321000-2b82743a1000 rw-p 00000000 00:00 0 
+2b82743a1000-2b82743ad000 r--p 00000000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b82743ad000-2b82743f5000 r-xp 0000c000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b82743f5000-2b827441e000 r--p 00054000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b827441e000-2b827441f000 ---p 0007d000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b827441f000-2b8274420000 r--p 0007d000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b8274420000-2b8274443000 rw-p 0007e000 00:2e 5963992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+2b8274443000-2b8274445000 rw-p 00000000 00:00 0 
+2b8274445000-2b8274449000 r--p 00000000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b8274449000-2b827447a000 r-xp 00004000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b827447a000-2b827447d000 r--p 00035000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b827447d000-2b827447e000 ---p 00038000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b827447e000-2b827447f000 r--p 00038000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b827447f000-2b8274481000 rw-p 00039000 00:2e 5963932                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/common.cpython-36m-x86_64-linux-gnu.so
+2b8274481000-2b8274486000 r--p 00000000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2b8274486000-2b82744d2000 r-xp 00005000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2b82744d2000-2b82744db000 r--p 00051000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2b82744db000-2b82744dc000 r--p 00059000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2b82744dc000-2b82744dd000 rw-p 0005a000 00:2e 5962962                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bounded_integers.cpython-36m-x86_64-linux-gnu.so
+2b82744dd000-2b82744de000 rw-p 00000000 00:00 0 
+2b82744de000-2b82744e2000 r--p 00000000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744e2000-2b82744f2000 r-xp 00004000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744f2000-2b82744fa000 r--p 00014000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744fa000-2b82744fb000 ---p 0001c000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744fb000-2b82744fc000 r--p 0001c000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744fc000-2b82744fe000 rw-p 0001d000 00:2e 5963975                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/mt19937.cpython-36m-x86_64-linux-gnu.so
+2b82744fe000-2b8274505000 r--p 00000000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2b8274505000-2b8274520000 r-xp 00007000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2b8274520000-2b8274528000 r--p 00022000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2b8274528000-2b8274529000 r--p 00029000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2b8274529000-2b827452e000 rw-p 0002a000 00:2e 5963885                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+2b827452e000-2b8274533000 r-xp 00000000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2b8274533000-2b8274733000 ---p 00005000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2b8274733000-2b8274734000 rw-p 00005000 00:2e 5949413                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+2b8274734000-2b8274737000 r--p 00000000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b8274737000-2b8274745000 r-xp 00003000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b8274745000-2b827474b000 r--p 00011000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b827474b000-2b827474c000 ---p 00017000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b827474c000-2b827474d000 r--p 00017000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b827474d000-2b827474e000 rw-p 00018000 00:2e 5949282                    /apps/gb/PSI4/1.4.0/lib/libz.so.1.2.11
+2b827474e000-2b8274753000 r-xp 00000000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2b8274753000-2b8274953000 ---p 00005000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2b8274953000-2b8274954000 rw-p 00005000 00:2e 5949408                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+2b8274954000-2b8274970000 r--p 00000000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2b8274970000-2b82749b1000 r-xp 0001c000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2b82749b1000-2b82749c2000 r--p 0005d000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2b82749c2000-2b82749c7000 r--p 0006d000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2b82749c7000-2b82749cd000 rw-p 00072000 00:2e 5949387                    /apps/gb/PSI4/1.4.0/lib/libssl.so.1.0.0
+2b82749cd000-2b8274a3a000 r--p 00000000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2b8274a3a000-2b8274b64000 r-xp 0006d000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2b8274b64000-2b8274beb000 r--p 00197000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2b8274beb000-2b8274c07000 r--p 0021d000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2b8274c07000-2b8274c12000 rw-p 00239000 00:2e 5949386                    /apps/gb/PSI4/1.4.0/lib/libcrypto.so.1.0.0
+2b8274c12000-2b8274c16000 rw-p 00000000 00:00 0 
+2b8274c16000-2b8274c1f000 r-xp 00000000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2b8274c1f000-2b8274e1e000 ---p 00009000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2b8274e1e000-2b8274e20000 rw-p 00008000 00:2e 5953857                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+2b8274e20000-2b8274e32000 r-xp 00000000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2b8274e32000-2b8275031000 ---p 00012000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2b8275031000-2b8275033000 rw-p 00011000 00:2e 5953952                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+2b8275033000-2b8275035000 r-xp 00000000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2b8275035000-2b8275235000 ---p 00002000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2b8275235000-2b8275236000 rw-p 00002000 00:2e 5953850                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+2b8275236000-2b8275239000 r-xp 00000000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2b8275239000-2b8275438000 ---p 00003000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2b8275438000-2b8275439000 rw-p 00002000 00:2e 5953947                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+2b8275439000-2b8275440000 r--p 00000000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2b8275440000-2b8275460000 r-xp 00007000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2b8275460000-2b8275467000 r--p 00027000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2b8275467000-2b8275468000 r--p 0002d000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2b8275468000-2b827546b000 rw-p 0002e000 00:2e 5963944                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/entropy.cpython-36m-x86_64-linux-gnu.so
+2b827546b000-2b827546c000 rw-p 00000000 00:00 0 
+2b827546c000-2b8275479000 r--p 00000000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2b8275479000-2b82754d2000 r-xp 0000d000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2b82754d2000-2b82754fe000 r--p 00066000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2b82754fe000-2b82754ff000 r--p 00091000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2b82754ff000-2b8275521000 rw-p 00092000 00:2e 5963954                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/generator.cpython-36m-x86_64-linux-gnu.so
+2b8275521000-2b8275563000 rw-p 00000000 00:00 0 
+2b8275563000-2b8275567000 r--p 00000000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2b8275567000-2b8275571000 r-xp 00004000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2b8275571000-2b8275574000 r--p 0000e000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2b8275574000-2b8275575000 r--p 00010000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2b8275575000-2b8275577000 rw-p 00011000 00:2e 5964003                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/pcg64.cpython-36m-x86_64-linux-gnu.so
+2b8275577000-2b827557b000 r--p 00000000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2b827557b000-2b8275588000 r-xp 00004000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2b8275588000-2b827558c000 r--p 00011000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2b827558c000-2b827558d000 r--p 00014000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2b827558d000-2b827558f000 rw-p 00015000 00:2e 5964013                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/numpy/random/philox.cpython-36m-x86_64-linux-gnu.so
+2b827558f000-2b82756cf000 rw-p 00000000 00:00 0 
+2b82756cf000-2b8279749000 r-xp 00000000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2b8279749000-2b8279948000 ---p 0407a000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2b8279948000-2b827994f000 r--p 04079000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2b827994f000-2b827997d000 rw-p 04080000 00:2e 5957137                    /apps/gb/PSI4/1.4.0/lib/libmkl_core.so
+2b827997d000-2b82799a4000 rw-p 00000000 00:00 0 
+2b82799a4000-2b8279b54000 r-xp 00000000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2b8279b54000-2b8279d53000 ---p 001b0000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2b8279d53000-2b8279d56000 r--p 001af000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2b8279d56000-2b8279d60000 rw-p 001b2000 00:2e 5956102                    /apps/gb/PSI4/1.4.0/lib/libiomp5.so
+2b8279d60000-2b8279d8e000 rw-p 00000000 00:00 0 
+2b8279d8e000-2b8279d91000 r--p 00000000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2b8279d91000-2b8279d9d000 r-xp 00003000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2b8279d9d000-2b8279da0000 r--p 0000f000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2b8279da0000-2b8279da1000 r--p 00011000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2b8279da1000-2b8279da2000 rw-p 00012000 00:2e 5947094                    /apps/gb/PSI4/1.4.0/lib/libgcc_s.so.1
+2b8279da2000-2b827be0b000 r-xp 00000000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2b827be0b000-2b827c00b000 ---p 02069000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2b827c00b000-2b827c00f000 r--p 02069000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2b827c00f000-2b827c275000 rw-p 0206d000 00:2e 5949863                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_thread.so
+2b827c275000-2b827c27e000 rw-p 00000000 00:00 0 
+2b827c27e000-2b827cbdd000 r-xp 00000000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2b827cbdd000-2b827cddd000 ---p 0095f000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2b827cddd000-2b827cdde000 r--p 0095f000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2b827cdde000-2b827cdf1000 rw-p 00960000 00:2e 5957946                    /apps/gb/PSI4/1.4.0/lib/libmkl_intel_lp64.so
+2b827cdf1000-2b827cdf6000 rw-p 00000000 00:00 0 
+2b827cdf6000-2b82802cf000 r-xp 00000000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2b82802cf000-2b82804cf000 ---p 034d9000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2b82804cf000-2b82804d6000 r--p 034d9000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2b82804d6000-2b82804e4000 rw-p 034e0000 00:2e 5954855                    /apps/gb/PSI4/1.4.0/lib/libmkl_avx2.so
+2b82804e4000-2b82804eb000 rw-p 00000000 00:00 0 
+2b82804eb000-2b8281075000 r-xp 00000000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2b8281075000-2b8281274000 ---p 00b8a000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2b8281274000-2b8281277000 r--p 00b89000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2b8281277000-2b828128c000 rw-p 00b8c000 00:2e 5959453                    /apps/gb/PSI4/1.4.0/lib/libmkl_vml_avx2.so
+2b828128c000-2b828128d000 rw-p 00000000 00:00 0 
+2b828128d000-2b8281293000 r--p 00000000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2b8281293000-2b82812a9000 r-xp 00006000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2b82812a9000-2b82812ad000 r--p 0001c000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2b82812ad000-2b82812ae000 r--p 0001f000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2b82812ae000-2b82812b1000 rw-p 00020000 00:2e 5953497                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/dataclasses.cpython-36m-x86_64-linux-gnu.so
+2b82812b1000-2b82812f1000 rw-p 00000000 00:00 0 
+2b82812f1000-2b82812f2000 r-xp 00000000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2b82812f2000-2b82814f2000 ---p 00001000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2b82814f2000-2b82814f3000 rw-p 00001000 00:2e 5953942                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+2b82814f3000-2b82814fb000 r--p 00000000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2b82814fb000-2b8281529000 r-xp 00008000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2b8281529000-2b8281530000 r--p 00036000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2b8281530000-2b8281531000 r--p 0003c000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2b8281531000-2b8281536000 rw-p 0003d000 00:2e 5947256                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/class_validators.cpython-36m-x86_64-linux-gnu.so
+2b8281536000-2b8281537000 rw-p 00000000 00:00 0 
+2b8281537000-2b8281540000 r--p 00000000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2b8281540000-2b8281577000 r-xp 00009000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2b8281577000-2b828157d000 r--p 00040000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2b828157d000-2b828157e000 r--p 00045000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2b828157e000-2b8281583000 rw-p 00046000 00:2e 5956738                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/errors.cpython-36m-x86_64-linux-gnu.so
+2b8281583000-2b8281585000 rw-p 00000000 00:00 0 
+2b8281585000-2b828158a000 r--p 00000000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2b828158a000-2b828159f000 r-xp 00005000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2b828159f000-2b82815a2000 r--p 0001a000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2b82815a2000-2b82815a3000 r--p 0001c000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2b82815a3000-2b82815a5000 rw-p 0001d000 00:2e 5957039                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/typing.cpython-36m-x86_64-linux-gnu.so
+2b82815a5000-2b82815e6000 rw-p 00000000 00:00 0 
+2b82815e6000-2b82815ee000 r--p 00000000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2b82815ee000-2b8281618000 r-xp 00008000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2b8281618000-2b828161f000 r--p 00032000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2b828161f000-2b8281620000 r--p 00038000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2b8281620000-2b8281626000 rw-p 00039000 00:2e 5930313                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/utils.cpython-36m-x86_64-linux-gnu.so
+2b8281626000-2b8281627000 rw-p 00000000 00:00 0 
+2b8281627000-2b828162d000 r--p 00000000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2b828162d000-2b8281646000 r-xp 00006000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2b8281646000-2b828164b000 r--p 0001f000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2b828164b000-2b828164c000 r--p 00023000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2b828164c000-2b828164f000 rw-p 00024000 00:2e 5930294                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/error_wrappers.cpython-36m-x86_64-linux-gnu.so
+2b828164f000-2b8281650000 rw-p 00000000 00:00 0 
+2b8281650000-2b8281654000 r--p 00000000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2b8281654000-2b8281661000 r-xp 00004000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2b8281661000-2b8281663000 r--p 00011000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2b8281663000-2b8281664000 r--p 00012000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2b8281664000-2b8281666000 rw-p 00013000 00:2e 5955423                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/json.cpython-36m-x86_64-linux-gnu.so
+2b8281666000-2b82816a6000 rw-p 00000000 00:00 0 
+2b82816a6000-2b82816aa000 r--p 00000000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2b82816aa000-2b82816b4000 r-xp 00004000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2b82816b4000-2b82816b6000 r--p 0000e000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2b82816b6000-2b82816b7000 r--p 0000f000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2b82816b7000-2b82816b8000 rw-p 00010000 00:2e 5930311                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/parse.cpython-36m-x86_64-linux-gnu.so
+2b82816b8000-2b82816b9000 rw-p 00000000 00:00 0 
+2b82816bf000-2b82816c3000 r-xp 00000000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2b82816c3000-2b82818c2000 ---p 00004000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2b82818c2000-2b82818c3000 r--p 00003000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2b82818c3000-2b82818c4000 rw-p 00004000 00:24 153413680                  /usr/lib64/libuuid.so.1.3.0
+2b82818c4000-2b82818cd000 r--p 00000000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2b82818cd000-2b8281902000 r-xp 00009000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2b8281902000-2b8281908000 r--p 0003e000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2b8281908000-2b8281909000 r--p 00043000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2b8281909000-2b828190f000 rw-p 00044000 00:2e 5955414                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/color.cpython-36m-x86_64-linux-gnu.so
+2b828190f000-2b8281951000 rw-p 00000000 00:00 0 
+2b8281951000-2b828195c000 r--p 00000000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b828195c000-2b82819a1000 r-xp 0000b000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b82819a1000-2b82819aa000 r--p 00050000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b82819aa000-2b82819ab000 ---p 00059000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b82819ab000-2b82819ac000 r--p 00059000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b82819ac000-2b82819b4000 rw-p 0005a000 00:2e 5957036                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/types.cpython-36m-x86_64-linux-gnu.so
+2b82819b4000-2b82819b6000 rw-p 00000000 00:00 0 
+2b82819b6000-2b82819bf000 r--p 00000000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2b82819bf000-2b8281a14000 r-xp 00009000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2b8281a14000-2b8281a1b000 r--p 0005e000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2b8281a1b000-2b8281a1c000 r--p 00064000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2b8281a1c000-2b8281a21000 rw-p 00065000 00:2e 5957047                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/validators.cpython-36m-x86_64-linux-gnu.so
+2b8281a21000-2b8281a23000 rw-p 00000000 00:00 0 
+2b8281a23000-2b8281a28000 r--p 00000000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2b8281a28000-2b8281a3c000 r-xp 00005000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2b8281a3c000-2b8281a3f000 r--p 00019000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2b8281a3f000-2b8281a40000 r--p 0001b000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2b8281a40000-2b8281a42000 rw-p 0001c000 00:2e 5953501                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/datetime_parse.cpython-36m-x86_64-linux-gnu.so
+2b8281a42000-2b8281a83000 rw-p 00000000 00:00 0 
+2b8281a83000-2b8281a8c000 r--p 00000000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2b8281a8c000-2b8281ace000 r-xp 00009000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2b8281ace000-2b8281ad4000 r--p 0004b000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2b8281ad4000-2b8281ad5000 r--p 00050000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2b8281ad5000-2b8281adb000 rw-p 00051000 00:2e 5930298                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/fields.cpython-36m-x86_64-linux-gnu.so
+2b8281adb000-2b8281adc000 rw-p 00000000 00:00 0 
+2b8281adc000-2b8281ae7000 r--p 00000000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2b8281ae7000-2b8281b4c000 r-xp 0000b000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2b8281b4c000-2b8281b54000 r--p 00070000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2b8281b54000-2b8281b55000 r--p 00077000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2b8281b55000-2b8281b5c000 rw-p 00078000 00:2e 5956992                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/main.cpython-36m-x86_64-linux-gnu.so
+2b8281b5c000-2b8281b5e000 rw-p 00000000 00:00 0 
+2b8281b5e000-2b8281b67000 r--p 00000000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281b67000-2b8281bc7000 r-xp 00009000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281bc7000-2b8281bcd000 r--p 00069000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281bcd000-2b8281bce000 ---p 0006f000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281bce000-2b8281bcf000 r--p 0006f000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281bcf000-2b8281bd7000 rw-p 00070000 00:2e 5955436                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/schema.cpython-36m-x86_64-linux-gnu.so
+2b8281bd7000-2b8281bd9000 rw-p 00000000 00:00 0 
+2b8281bd9000-2b8281be1000 r--p 00000000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2b8281be1000-2b8281c0c000 r-xp 00008000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2b8281c0c000-2b8281c12000 r--p 00033000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2b8281c12000-2b8281c13000 r--p 00038000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2b8281c13000-2b8281c18000 rw-p 00039000 00:2e 5955431                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/networks.cpython-36m-x86_64-linux-gnu.so
+2b8281c18000-2b8281c59000 rw-p 00000000 00:00 0 
+2b8281c59000-2b8281c5e000 r--p 00000000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2b8281c5e000-2b8281c6f000 r-xp 00005000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2b8281c6f000-2b8281c73000 r--p 00016000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2b8281c73000-2b8281c74000 r--p 00019000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2b8281c74000-2b8281c76000 rw-p 0001a000 00:2e 5954937                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/env_settings.cpython-36m-x86_64-linux-gnu.so
+2b8281c76000-2b8281c77000 rw-p 00000000 00:00 0 
+2b8281c77000-2b8281c7b000 r--p 00000000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2b8281c7b000-2b8281c84000 r-xp 00004000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2b8281c84000-2b8281c86000 r--p 0000d000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2b8281c86000-2b8281c87000 r--p 0000e000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2b8281c87000-2b8281c88000 rw-p 0000f000 00:2e 5956762                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/pydantic/tools.cpython-36m-x86_64-linux-gnu.so
+2b8281c88000-2b8281fc9000 rw-p 00000000 00:00 0 
+2b8281fc9000-2b82821c2000 r--p 00000000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b82821c2000-2b8284d4e000 r-xp 001f9000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b8284d4e000-2b82856bb000 r--p 02d85000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b82856bb000-2b82856bc000 ---p 036f2000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b82856bc000-2b82856cf000 r--p 036f2000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b82856cf000-2b828584a000 rw-p 03705000 00:2e 5958751                    /apps/gb/PSI4/1.4.0/lib/python3.6/site-packages/psi4/core.cpython-36m-x86_64-linux-gnu.so
+2b828584a000-2b8285a0f000 rw-p 00000000 00:00 0 
+2b8285a0f000-2b8285a3b000 r--p 00000000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2b8285a3b000-2b8285fbc000 r-xp 0002c000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2b8285fbc000-2b8286059000 r--p 005ad000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2b8286059000-2b828605c000 r--p 00649000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2b828605c000-2b8286075000 rw-p 0064c000 00:2e 5950067                    /apps/gb/PSI4/1.4.0/lib/libchemps2.so.3
+2b8286075000-2b828607a000 rw-p 00000000 00:00 0 
+2b828607a000-2b828625e000 r-xp 00000000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2b828625e000-2b828645e000 ---p 001e4000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2b828645e000-2b8286462000 r--p 001e4000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2b8286462000-2b828646c000 rw-p 001e8000 00:2e 5956104                    /apps/gb/PSI4/1.4.0/lib/libgdma.so
+2b828646c000-2b82864c6000 rw-p 00000000 00:00 0 
+2b82864c6000-2b82864cd000 r--p 00000000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2b82864cd000-2b8286913000 r-xp 00007000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2b8286913000-2b8286964000 r--p 0044d000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2b8286964000-2b8286966000 r--p 0049d000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2b8286966000-2b8286967000 rw-p 0049f000 00:2e 5953450                    /apps/gb/PSI4/1.4.0/lib/libgg.so.1
+2b8286967000-2b8286991000 r--p 00000000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2b8286991000-2b82877cb000 r-xp 0002a000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2b82877cb000-2b82878cf000 r--p 00e64000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2b82878cf000-2b82878e3000 r--p 00f67000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2b82878e3000-2b828790b000 rw-p 00f7b000 00:2e 5953452                    /apps/gb/PSI4/1.4.0/lib/libxc.so.5
+2b828790b000-2b828790c000 rw-p 00000000 00:00 0 
+2b828790c000-2b828794e000 r--p 00000000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2b828794e000-2b82a60a0000 r-xp 00042000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2b82a60a0000-2b82a6265000 r--p 1e794000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2b82a6265000-2b82a626b000 r--p 1e958000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2b82a626b000-2b82a626c000 rw-p 1e95e000 00:2e 5954836                    /apps/gb/PSI4/1.4.0/lib/libderiv.so
+2b82a626c000-2b82a6278000 rw-p 00000000 00:00 0 
+2b82a6278000-2b82a62bf000 r--p 00000000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82a62bf000-2b82bae54000 r-xp 00047000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82bae54000-2b82baf40000 r--p 14bdc000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82baf40000-2b82baf41000 ---p 14cc8000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82baf41000-2b82baf48000 r--p 14cc8000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82baf48000-2b82baf49000 rw-p 14ccf000 00:2e 5950044                    /apps/gb/PSI4/1.4.0/lib/libint.so
+2b82baf49000-2b82baf56000 rw-p 00000000 00:00 0 
+2b82baf56000-2b82bd268000 r-xp 00000000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2b82bd268000-2b82bd467000 ---p 02312000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2b82bd467000-2b82bd46d000 r--p 02311000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2b82bd46d000-2b82bd470000 rw-p 02317000 00:2e 5945419                    /apps/gb/PSI4/1.4.0/lib/libsimint.so
+2b82bd470000-2b82bd478000 rw-p 00000000 00:00 0 
+2b82bd478000-2b82bd57c000 r-xp 00000000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2b82bd57c000-2b82bd77b000 ---p 00104000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2b82bd77b000-2b82bd77e000 r--p 00103000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2b82bd77e000-2b82bd781000 rw-p 00106000 00:2e 5953440                    /apps/gb/PSI4/1.4.0/lib/libdkh.so
+2b82bd781000-2b82bd7d3000 rw-p 00000000 00:00 0 
+2b82bd7d3000-2b82bdc96000 r-xp 00000000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2b82bdc96000-2b82bde95000 ---p 004c3000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2b82bde95000-2b82bde99000 r--p 004c2000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2b82bde99000-2b82bdeb7000 rw-p 004c6000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2b82bdeb7000-2b82c480a000 rw-p 00000000 00:00 0 
+2b82c480a000-2b82c482c000 rw-p 005ed000 00:2e 5954901                    /apps/gb/PSI4/1.4.0/lib/libpcm.so.1
+2b82c482c000-2b82c4858000 r--p 00000000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c4858000-2b82c491c000 r-xp 0002c000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c491c000-2b82c4950000 r--p 000f0000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c4950000-2b82c4951000 ---p 00124000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c4951000-2b82c4954000 r--p 00124000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c4954000-2b82c495b000 rw-p 00127000 00:2e 5956175                    /apps/gb/PSI4/1.4.0/lib/libambit.so
+2b82c495b000-2b82c495c000 rw-p 00000000 00:00 0 
+2b82c495c000-2b82c49ff000 r--p 00000000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2b82c49ff000-2b82c4a7e000 r-xp 000a3000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2b82c4a7e000-2b82c4abf000 r--p 00122000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2b82c4abf000-2b82c4aca000 r--p 00162000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2b82c4aca000-2b82c4ace000 rw-p 0016d000 00:2e 5949701                    /apps/gb/PSI4/1.4.0/lib/libstdc++.so.6.0.28
+2b82c4ace000-2b82c4ad1000 rw-p 00000000 00:00 0 
+2b82c4ad1000-2b82c4e75000 r-xp 00000000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2b82c4e75000-2b82c5075000 ---p 003a4000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2b82c5075000-2b82c5087000 rw-p 003a4000 00:2e 5956076                    /apps/gb/PSI4/1.4.0/lib/libhdf5.so.101.1.0
+2b82c5087000-2b82c555b000 rw-p 00000000 00:00 0 
+2b82c555b000-2b82c556e000 r-xp 00000000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2b82c556e000-2b82c576d000 ---p 00013000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2b82c576d000-2b82c5773000 rw-p 00012000 00:2e 5953960                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+2b82c5773000-2b82c58f3000 rw-p 00000000 00:00 0 
+2b82c58f3000-2b82c58f7000 r-xp 00000000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2b82c58f7000-2b82c5af7000 ---p 00004000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2b82c5af7000-2b82c5af9000 rw-p 00004000 00:2e 5954026                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+2b82c5af9000-2b82c5bb9000 rw-p 00000000 00:00 0 
+2b82c5bb9000-2b82c5bc7000 r-xp 00000000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2b82c5bc7000-2b82c5dc7000 ---p 0000e000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2b82c5dc7000-2b82c5dc9000 rw-p 0000e000 00:2e 5953927                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-linux-gnu.so
+2b82c5dc9000-2b82c5e04000 r-xp 00000000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2b82c5e04000-2b82c6004000 ---p 0003b000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2b82c6004000-2b82c6008000 rw-p 0003b000 00:2e 5954013                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+2b82c6008000-2b82c6048000 rw-p 00000000 00:00 0 
+2b82c6088000-2b82c6108000 rw-p 00000000 00:00 0 
+2b82c6148000-2b82c6188000 rw-p 00000000 00:00 0 
+2b82c61c8000-2b82c6248000 rw-p 00000000 00:00 0 
+2b82c62c8000-2b82c6388000 rw-p 00000000 00:00 0 
+2b82c6388000-2b82c638e000 r-xp 00000000 00:2e 5949415                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+2b82c638e000-2b82c658e000 ---p 00006000 00:2e 5949415                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+2b82c658e000-2b82c6590000 rw-p 00006000 00:2e 5949415                    /apps/gb/PSI4/1.4.0/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+2b82c6590000-2b82c6ad0000 rw-p 00000000 00:00 0 
+2b82c6b90000-2b82cdd5b000 rw-p 00000000 00:00 0 
+2b82d0000000-2b82d0021000 rw-p 00000000 00:00 0 
+2b82d0021000-2b82d4000000 ---p 00000000 00:00 0 
+7fff33e8a000-7fff33eac000 rw-p 00000000 00:00 0                          [stack]
+7fff33fec000-7fff33fee000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libgdma.so         00002B82861800DC  for__signal_handl     Unknown  Unknown
+
+Stack trace terminated abnormally.
+/var/lib/slurmd/job1412751/slurm_script: line 27: 31785 Aborted                 (core dumped) psi4 input.dat  (wd: /scratch/smg13363/workDir/2_sulfides/opts/s3/s3_0_t/wb97x_d)
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
