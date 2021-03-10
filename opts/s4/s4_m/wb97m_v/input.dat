@@ -1,0 +1,27 @@
+memory 16 GB
+
+molecule  {
+-1 2
+S
+S 1 r1
+S 1 r2 2 a1
+S 2 r3 1 a2 3 d1
+r1 = 2.051
+r2 = 2.024
+r3 = 2.024
+a1 = 105.1
+a2 = 105.1
+d1 = 180.0
+}
+
+set {
+reference uks
+basis aug-cc-pvtz
+g_convergence gau_verytight
+dft_spherical_points 590
+dft_radial_points 99
+}
+
+optimize('wb97m-v')
+frequencies('wb97m-v')
+
